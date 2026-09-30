@@ -1,0 +1,101 @@
+MI-BTrack guided demo - narration script
+Tour: short        Language: English
+Steps: 12
+
+HOW TO USE THIS FILE
+  Record one clip per numbered block below. Save it as the file name
+  shown in [brackets]. Read only the line after "SAY:" - the heading and
+  the screen note are here for your context and must not be spoken.
+
+  Clips are shared between tours. If a file already exists from another
+  tour, skip it - do not record or pay for it twice.
+
+==========================================================================
+
+
+---- CHAPTER: F01 ----------------------------------------------------
+
+  1. [f01.mp3]   (40 characters)
+     SCREEN: vendor/dashboard   focus: .page-content
+     SAY:    This is your dashboard of MI-Btrack CRM.
+
+
+---- CHAPTER: F03 ----------------------------------------------------
+
+  2. [f03.mp3]   (173 characters)
+     SCREEN: vendor/masters/add_amc   focus: #amc_name
+     SAY:    After that we go to Master Section and add AMC in Add New AMC. In AMC, we are going to add all the services we are providing to the customers, all the AMCs we are providing.
+
+
+---- CHAPTER: F06 ----------------------------------------------------
+
+  3. [f06.mp3]   (370 characters)
+     SCREEN: vendor/leads/add_lead   focus: #lead_name
+     SAY:    Any platform from which you are getting leads like Just Dial, IndiaMart, Meta Ads, Google or if you are running any campaign, the lead from there will directly come into your CRM. You will see that lead on your CRM dashboard from which platform that lead came to you. Or if you want to add the lead manually, then we should go to Leads and add that lead in Add New Lead.
+
+
+---- CHAPTER: F08 ----------------------------------------------------
+
+  4. [f08.mp3]   (290 characters)
+     SCREEN: vendor/leads/add_lead_follwoup?id=NzAwOA%3D%3D   focus: #followup_feedback
+     SAY:    After adding a lead, we can follow-up on that lead, so that the lead converts into our customer. For this, we can add whatever discussion we have with that lead in the follow-up. So that when we want to talk about that lead again tomorrow, we don't have to remember what was said last time.
+
+
+---- CHAPTER: F10 ----------------------------------------------------
+
+  5. [f10.mp3]   (1204 characters)
+     SCREEN: vendor/customers/add_customer   focus: #cust_name
+     SAY:    After that we will add customers. Let's go to Add New Customer in Customers. After that we will enter all the details of the customer in it. Select AMC in Service Type and select With GST in GST Option. After that, if the customer has GST number, we can also enter it. After that we will take the name of the customer, we will fill all the details like their contact number and email id here. We can also enter the address of the customer. When the customer is added, let's put it in Customer Added Date. After that, we will select the AMC that we are giving him from the following services. Any amount of AMC, that amount comes here. If we want to edit it, we can do that from here. If we want to change the date on which we are providing service to the customer, we can change that too. If the customer has already made the payment, then whatever the Paid Amount is, we can select Cash, Online in the Payment Mode and enter the amount there. After that, if we want to add Reference By of this customer, we can also add it here. We can add Alternate Contact Numbers etc., so that if the customer is not available, then the alternate contact number can be called. After that we will submit that customer.
+
+
+---- CHAPTER: F11 ----------------------------------------------------
+
+  6. [f11.mp3]   (851 characters)
+     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .page-content
+     SAY:    Below are some of the AMC services we are providing to the customer after customer submission. If that service is for complaint, then we can cancel service there and submit that service by entering Completed Reason. Or if we want to schedule this service and assign a task to someone, then we can schedule that service by clicking on the Schedule button. If you go to the dashboard and check, you have created a customer in Pending Services, its service will show that the service of this customer is pending. Then we can complete the service by clicking on that customer. Then we can add any follow-ups about this customer by going below to Add Follow-ups. And if the payment comes later, then we can add that payment too by clicking on the Payment button. Customers whose payment is pending, you will also see as Payment Defaulters on the dashboard.
+
+
+---- CHAPTER: F14 ----------------------------------------------------
+
+  7. [f14.mp3]   (1001 characters)
+     SCREEN: vendor/admin/add_employee   focus: #emp_name
+     SAY:    We use the Employee Attendance and Employee Location Tracking features in the CRM to track the location and timing of our technicians and field workers. For this, we first need to create all our Employees. Go to the Add New Employee section under Employee and enter all the Employee details. These include the Employee name, Contact Number, whom the Employee Reports to, and the Employee's Designation. Choose the appropriate Designation, such as Employee, Sales Person, Technician, or Admin. Permissions are assigned according to the Employee's Designation. The Dashboard will be visible and the Employee will be able to Access the CRM according to the Permissions we provide. Next, enter the Employee's Department. Set Location Tracking to Yes so that we can see the Location of an Employee who has gone into the Field. Then enter the Employee's Joining Date and Address. We can also Add the Employee's Bank Details and other details. Finally, click the Submit button to Submit the Employee details.
+
+
+---- CHAPTER: F16 ----------------------------------------------------
+
+  8. [f16.mp3]   (854 characters)
+     SCREEN: vendor/customers/add_ticket   focus: #tkt_title
+     SAY:    On the left side, in Tickets, we can create a new ticket in Add New Ticket, so that we can assign tasks to our employees. In that, in Customer Type, select whether we are assigning Ticket to Customer, Lead or someone else. After that we should select the name of that Customer or Lead in the dropdown given below. In the Ticket Title, we should put whatever instructions we want to give to our employees. In Ticket Priority, we should select the priority of solving this ticket, i.e. High, Medium or Low. Then in the Ticket Description, we should enter whatever Details or Description the Employees have to give to Task Resolve in the Ticket Description. After that, to which employee you want to assign this ticket, select the name of that employee in Ticket Assign. When you have assigned the ticket, enter its date and time and then submit the ticket.
+
+
+---- CHAPTER: F17 ----------------------------------------------------
+
+  9. [f17.mp3]   (1344 characters)
+     SCREEN: vendor/customers/ticket_report   focus: .portlet.light.bordered
+     SAY:    After a Ticket is Assigned, the Employee can open My Tickets in the Mobile Application and view the Tickets Assigned to them. By selecting a Particular Ticket, the Employee can see which Customer or Lead the Ticket is about and view their Location. The Description explains exactly what work must be completed at the Field location. After reaching the Field, the Employee opens the Ticket and selects the three Dots in the Right Side Corner. The Start Ticket Option then appears. The Employee enters a Start Ticket Remark, such as Starting Work, and selects the Start Ticket Button. After the Work is complete, the Employee selects the three Dots again and chooses Update Ticket. The Update Ticket screen contains Review and Description Fields. In Review, the Employee can record which Service was provided to the Customer. In Description, the Employee can describe any Extra Material used, any Incomplete Work, or whether another Field Visit is required. In Work Type, the Employee selects Service, Repair, or Both. Status provides Open and Resolved Options. Select Open when the Work is incomplete and another Visit is required. Select Resolved when the Work is complete. The Employee can then select Browse to Capture or Upload a work-related Image. After adding the Image, select Update, collect the Client Signature, and Submit the Ticket.
+
+
+---- CHAPTER: F19 ----------------------------------------------------
+
+ 10. [f19.mp3]   (1508 characters)
+     SCREEN: vendor/reports/add_quotation   focus: #p_quote_name
+     SAY:    We can also create quotations in MI B-Track CRM. Go to Quotations on the left side and select Add New Quotation. After that you will see two options Customer and Leads in Customer Type. Select the option for whom you want to create a quotation. Let us select the Customer option here. Then select the name of the Lead or Customer from the dropdown. Let's select what is the Priority of making a quotation or sending a quotation. We can select one of the three options High, Medium, Low. Then select GST Applicable or Without GST in GST Type. We can enter the date of creating the quotation there. Then fill all the fields Address, Contact Number. After that, in Subject, you can add whatever Subject is there while creating the quotation. Such as Quotation for General Pest Management Service. After that, we can write whatever description we want to write in quotation. Select the Product or Service for which you are making the quotation in Product Details. I have selected AMC here. Which AMC is in AMC, I have selected General Pest Management. In description we can write description about that AMC. Like, “In this AMC, we are providing six services.” Then you can enter below the Terms and Conditions, which you want in the quotation. We can add these Terms and Conditions together and keep them in CRM, so that the same Terms and Conditions can be used for every quotation. Or we can add some terms which are different and required while creating the quotation. After that, let's submit this quotation.
+
+
+---- CHAPTER: F21 ----------------------------------------------------
+
+ 11. [f21.mp3]   (589 characters)
+     SCREEN: vendor/reports/daily_analysis_report   focus: .portlet.light.bordered
+     SAY:    In MI B-Track CRM we can also view visualized reports or analysis reports. For that, click on Reports on the left side and select Daily Analysis Report. In Daily Analysis Report we can see the Daily Report of our Particular Employee. Here, we can see how many leads they have generated today, how many leads they have followed up on, how many follow-ups they have pending, how many tickets they have resolved, how many payments they have collected, all this can be seen in the Daily Analysis Report. In that we can also see the particular report of that employee for a month or a few days.
+
+
+---- CHAPTER: F22 ----------------------------------------------------
+
+ 12. [f22.mp3]   (846 characters)
+     SCREEN: vendor/reports/roi_report   focus: .roi-dashboard
+     SAY:    In the same way we can also see the Market Analysis Report. We can see Market Analysis Report by clicking on Market Analysis Report in Reports. In this we can see how many leads we have received and how many of those leads have been converted into customers. Here we also see Conversion Rate. After that we can see the Employee-wise Performance here, in which we will see how many leads have been converted by the particular employee. After that, we can see in the Lead Activity Log which lead the particular employee is following up on. You will also see Employee ROI and Reference ROI here. From Reference ROI you will get an idea from which platform you are getting more business. And in Employee ROI you will know how your Employee's Performance is. You can also see how many leads have been converted into customers by a particular employee.
+
+==========================================================================
+Total for this tour: 9070 characters, roughly 10m 26s of speech.
+Remember that clips shared with another tour only cost once.

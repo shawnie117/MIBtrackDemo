@@ -1,0 +1,143 @@
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+
+
+
+
+.widget-thumb {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.widget-thumb:hover  {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}						
+
+.widget-thumb .widget-thumb-wrap .widget-thumb-icon {
+    float: left;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+	line-height: 55px;
+}
+
+.feeds li .col1>.cont {
+    margin-right: 0px;
+}
+
+.feeds li .col1>.cont>.cont-col2>.desc {
+    padding-top: 0px;
+    padding-bottom: 0px;
+	 white-space: nowrap;
+  text-overflow: ellipsis;
+
+}
+
+.quick-nav {
+    position: fixed;
+    z-index: 10103;
+    top: 42%;
+    right: 10px;
+    margin-top: -230px;
+    pointer-events: none;
+}
+
+/* .tbl_data_table_no_srch2 td {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100px;
+} */
+
+.tbl_data_table_no_srch2 {
+        /* Ensure fixed table layout */
+    width: 100%;            /* Make sure the table fits within the container */
+}
+
+.tbl_data_table_no_srch2 th, .tbl_data_table_no_srch2 td {
+    overflow: hidden;           /* Hide overflow content */
+    white-space: nowrap;        /* Prevent wrapping to the next line */
+    text-overflow: ellipsis;    /* Add ellipsis to cut off content */
+    max-width: 200px;           /* Adjust max-width as needed */
+}
+
+.dataTables_wrapper .dataTables_scrollBody {
+    overflow-x: hidden !important;  /* Force hiding the horizontal scrollbar */
+}
+
+
+.tbl_data_table_no_srch3 td {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}
+
+
+
+/* .tbl_data_table_no_srch2{table-layout:fixed } */
+
+.tbl_data_table_no_srch3{table-layout:fixed }
+
+.tbl_data_table_no_srch4{table-layout:fixed }
+
+
+	table.dataTable thead .sorting:after {
+    opacity: 0.2;
+    content: "";
+}
+table.dataTable thead .sorting_asc:after {
+    content: "";
+}
+
+table.dataTable thead .sorting_desc:after {
+    content: "";
+}
+
+
+.help-inline {
+    /* position: absolute; */
+    top: 100%;
+    left: 0;
+    width: 100%;
+	padding:0px;
+}
+
+@media screen and (max-width:768px) {
+
+    .tbl_data_table_no_srch  td {
+        
+        max-width:100%;
+        overflow-x: scroll;
+      }
+      
+      .tbl_data_table_no_srch2 {
+         
+        width: 100%;            /* Make sure the table fits within the container */
+    }
+
+    .tbl_data_table_no_srch2 th, .tbl_data_table_no_srch2 td {
+        overflow: scroll;           /* Hide overflow content */
+        white-space: nowrap;        /* Prevent wrapping to the next line */
+        text-overflow: ellipsis;    /* Add ellipsis to cut off content */
+        max-width: 100px;           /* Adjust max-width as needed */
+    }
+    .dataTables_wrapper .dataTables_scrollBody {
+        overflow-x: scroll;  /* Force hiding the horizontal scrollbar */
+    }
+
+}

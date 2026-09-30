@@ -1,0 +1,608 @@
+.upload-data-page .upload-data-portlet {
+    margin-bottom: 30px;
+}
+
+.upload-data-page .upload-data-portlet > .portlet-title {
+    margin-bottom: 0;
+}
+
+.upload-data-page .upload-intro {
+    align-items: center;
+    background: #f7fafc;
+    border: 1px solid #e8edf3;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin: -11px 0 12px;
+    padding: 11px 19px;
+}
+
+.upload-data-page .upload-intro-copy h2 {
+    color: #34495e;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 0 6px;
+}
+
+.upload-data-page .upload-intro-copy p {
+    color: #6f7d8c;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.upload-data-page .upload-format-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 24px;
+}
+
+.upload-data-page .upload-format-list span {
+    background: #fff;
+    border: 1px solid #dce4ec;
+    border-radius: 20px;
+    color: #526273;
+    display: inline-block;
+    font-size: 12px;
+    margin: 3px 0 3px 7px;
+    padding: 7px 11px;
+    white-space: nowrap;
+}
+
+.upload-data-page .upload-format-list i {
+    color: #2563eb;
+    margin-right: 5px;
+}
+
+/* Added by Anjali 14/07/26: Styles the shared upload requirements panel shown above the import cards. */
+.upload-data-page .upload-common-instructions {
+    background: #fffcf4;
+    border: 1px solid #f1dfad;
+    border-radius: 8px;
+    margin-bottom: 22px;
+    padding: 8px 18px;
+}
+
+.upload-data-page .upload-common-instructions-header {
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.upload-data-page .upload-common-instructions-icon {
+    align-items: center;
+    background: #fff2c8;
+    border-radius: 50%;
+    color: #b7791f;
+    display: inline-flex;
+    flex: 0 0 34px;
+    font-size: 15px;
+    height: 34px;
+    justify-content: center;
+    margin-right: 11px;
+    width: 34px;
+}
+
+.upload-data-page .upload-common-instructions-header h3 {
+    color: #5f4b22;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 3px;
+}
+
+.upload-data-page .upload-common-instructions-header p {
+    color: #847350;
+    font-size: 12px;
+    margin: 0;
+}
+
+.upload-data-page .upload-common-instructions ul {
+    display: grid;
+    gap: 9px 18px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.upload-data-page .upload-common-instructions li {
+    align-items: flex-start;
+    color: #5f6873;
+    display: flex;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.upload-data-page .upload-common-instructions li > i {
+    color: #2e9d67;
+    flex: 0 0 auto;
+    margin: 3px 8px 0 0;
+}
+
+.upload-data-page .alert.upload-page-alert.alert-dismissable {
+    align-items: flex-start;
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 18px;
+    padding: 13px 42px 13px 15px;
+    position: relative;
+    right: auto;
+    top: auto;
+}
+
+.upload-data-page .upload-page-alert > i {
+    font-size: 17px;
+    margin: 1px 9px 0 0;
+}
+
+.upload-data-page .upload-page-alert .close {
+    position: absolute;
+    right: 12px;
+    top: 9px;
+}
+
+.upload-data-page .upload-card-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+
+.upload-data-page .upload-card-column {
+    display: flex;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.upload-data-page .upload-card {
+    background: #fff;
+    border: 1px solid #e1e7ee;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(40, 55, 75, .05);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    padding: 20px;
+    transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+    width: 100%;
+}
+
+.upload-data-page .upload-card:hover,
+.upload-data-page .upload-card:focus-within {
+    border-color: #9ab5f3;
+    box-shadow: 0 6px 18px rgba(40, 55, 75, .09);
+    transform: translateY(-1px);
+}
+
+.upload-data-page .upload-card.has-import-error {
+    border-color: #ed6b75;
+}
+
+.upload-data-page .upload-card-header {
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 17px;
+    min-height: 55px;
+}
+
+.upload-data-page .upload-card-icon {
+    align-items: center;
+    background: rgba(37, 99, 235, .10);
+    border-radius: 8px;
+    color: #2563eb;
+    display: flex;
+    flex: 0 0 44px;
+    font-size: 19px;
+    height: 44px;
+    justify-content: center;
+    margin-right: 13px;
+    width: 44px;
+}
+
+.upload-data-page .upload-card-header h3 {
+    color: #34495e;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1px 0 4px;
+}
+
+.upload-data-page .upload-card-header p {
+    color: #7c8996;
+    font-size: 12px;
+    line-height: 1.45;
+    margin: 0;
+}
+
+.upload-data-page .upload-instruction-block {
+    border: 1px solid #e8edf3;
+    border-radius: 6px;
+    margin: -3px 0 14px;
+    overflow: hidden;
+}
+
+.upload-data-page .upload-instruction-toggle {
+    align-items: center;
+    background: #fbfcfd;
+    border: 0;
+    color: #526273;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 10px 12px;
+    text-align: left;
+    width: 100%;
+}
+
+.upload-data-page .upload-instruction-toggle:hover,
+.upload-data-page .upload-instruction-toggle:focus {
+    background: #f4f7ff;
+    color: #2563eb;
+    outline: none;
+}
+
+.upload-data-page .upload-instruction-toggle i:first-child {
+    color: #2563eb;
+    margin-right: 6px;
+}
+
+.upload-data-page .upload-instruction-arrow {
+    color: #8a97a5;
+    margin-left: 10px;
+    transition: transform .2s ease;
+}
+
+.upload-data-page .upload-instruction-toggle[aria-expanded="true"] .upload-instruction-arrow {
+    transform: rotate(180deg);
+}
+
+.upload-data-page .upload-instruction-panel {
+    background: #fff;
+    border-top: 1px solid #e8edf3;
+    padding: 10px 14px 10px 28px;
+}
+
+.upload-data-page .upload-instruction-panel ul {
+    margin: 0;
+    padding: 0;
+}
+
+.upload-data-page .upload-instruction-panel li {
+    color: #637386;
+    font-size: 12px;
+    line-height: 1.45;
+    margin: 0 0 6px;
+}
+
+.upload-data-page .upload-instruction-panel li:last-child {
+    margin-bottom: 0;
+}
+
+.upload-data-page .upload-form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.upload-data-page .upload-file-input {
+    height: 1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    z-index: -1;
+}
+
+.upload-data-page .upload-drop-zone {
+    align-items: center;
+    background: #fbfcfd;
+    border: 1px dashed #b8c6d3;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    margin: 0;
+    min-height: 70px;
+    padding: 12px 14px;
+    transition: background .2s ease, border-color .2s ease;
+    width: 100%;
+}
+
+.upload-data-page .upload-drop-zone:hover,
+.upload-data-page .upload-drop-zone:focus,
+.upload-data-page .upload-file-input:focus + .upload-drop-zone,
+.upload-data-page .upload-drop-zone.is-dragging {
+    background: #f4f7ff;
+    border-color: #2563eb;
+    outline: none;
+}
+
+.upload-data-page .upload-drop-zone.has-file {
+    background: #f4fbf8;
+    border-color: #45b98f;
+    border-style: solid;
+}
+
+.upload-data-page .upload-drop-zone.has-error {
+    background: #fff8f8;
+    border-color: #ed6b75;
+}
+
+.upload-data-page .upload-drop-icon {
+    color: #2563eb;
+    flex: 0 0 34px;
+    font-size: 25px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.upload-data-page .upload-file-copy {
+    min-width: 0;
+}
+
+.upload-data-page .upload-file-copy strong,
+.upload-data-page .upload-file-copy small {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.upload-data-page .upload-file-copy strong {
+    color: #405163;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.upload-data-page .upload-file-copy small {
+    color: #8a97a5;
+    font-size: 11px;
+}
+
+.upload-data-page .upload-browse-text {
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: auto;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.upload-data-page .upload-file-error {
+    color: #d84a53;
+    font-size: 11px;
+    line-height: 1.4;
+    margin: 5px 2px 0;
+    min-height: 16px;
+}
+
+.upload-data-page .upload-card-actions {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+}
+
+.upload-data-page .upload-card-actions .btn {
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 12px;
+    text-transform: uppercase;
+}
+
+.upload-data-page .upload-card-actions .btn i {
+    margin-right: 5px;
+}
+
+.upload-data-page .upload-sample-btn {
+    border-color: #e0e5eb;
+    color: #596979;
+}
+
+.upload-data-page .upload-sample-btn i {
+    color: #ed6b75;
+}
+
+.upload-data-page .upload-submit-btn {
+    background: #2563eb;
+    border-color: #1d4ed8;
+    color: #fff;
+}
+
+.upload-data-page .upload-submit-btn:hover,
+.upload-data-page .upload-submit-btn:focus {
+    background: #1d4ed8;
+    border-color: #1e40af;
+    color: #fff;
+}
+
+.upload-data-page.js-upload-ready .upload-submit-btn:disabled {
+    background: #b9c9ee;
+    border-color: #b9c9ee;
+    cursor: not-allowed;
+    opacity: .72;
+}
+
+.upload-data-page .upload-error-panel {
+    background: #fff;
+    border: 1px solid #f2c5c9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.upload-data-page .upload-error-heading {
+    align-items: center;
+    background: #fff7f7;
+    border-bottom: 1px solid #f2d8da;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px;
+}
+
+.upload-data-page .upload-error-heading > div {
+    align-items: center;
+    display: flex;
+}
+
+.upload-data-page .upload-error-icon {
+    align-items: center;
+    background: #ed6b75;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    flex: 0 0 34px;
+    height: 34px;
+    justify-content: center;
+    margin-right: 11px;
+    width: 34px;
+}
+
+.upload-data-page .upload-error-copy h3 {
+    color: #b83a43;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 2px;
+}
+
+.upload-data-page .upload-error-copy p {
+    color: #8c6669;
+    font-size: 12px;
+    margin: 0;
+}
+
+.upload-data-page .upload-error-count {
+    background: #ed6b75;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 9px;
+    white-space: nowrap;
+}
+
+.upload-data-page .upload-error-table-wrap {
+    max-height: 360px;
+    overflow: auto;
+}
+
+.upload-data-page .upload-error-table {
+    margin: 0;
+}
+
+.upload-data-page .upload-error-table thead th {
+    background: #f7f9fb;
+    border-bottom: 1px solid #dfe5eb;
+    color: #526273;
+    font-size: 11px;
+    font-weight: 600;
+    position: sticky;
+    text-transform: uppercase;
+    top: 0;
+    z-index: 2;
+}
+
+.upload-data-page .upload-error-table td {
+    color: #5c6976;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.upload-data-page .upload-error-table th:first-child,
+.upload-data-page .upload-error-table td:first-child {
+    text-align: center;
+    width: 52px;
+}
+
+.upload-data-page .upload-error-table th:last-child,
+.upload-data-page .upload-error-table td:last-child {
+    text-align: center;
+    width: 72px;
+}
+
+.upload-data-page .upload-error-message {
+    min-width: 260px;
+}
+
+.upload-data-page .upload-error-type {
+    display: inline-block;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+    .upload-data-page .upload-intro {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .upload-data-page .upload-format-list {
+        justify-content: flex-start;
+        margin: 12px 0 0 -7px;
+    }
+}
+
+@media (max-width: 767px) {
+    .upload-data-page .upload-data-portlet {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .upload-data-page .upload-intro {
+        padding: 16px;
+    }
+
+    .upload-data-page .upload-format-list {
+        display: block;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .upload-data-page .upload-format-list span {
+        margin-left: 0;
+        margin-right: 4px;
+    }
+
+    /* Added by Anjali 14/07/26: Keeps the shared instruction panel readable on mobile screens. */
+    .upload-data-page .upload-common-instructions {
+        padding: 16px;
+    }
+
+    .upload-data-page .upload-common-instructions ul {
+        grid-template-columns: 1fr;
+    }
+
+    .upload-data-page .upload-card-row {
+        display: block;
+    }
+
+    .upload-data-page .upload-card-column {
+        display: block;
+    }
+
+    .upload-data-page .upload-card {
+        padding: 16px;
+    }
+
+    .upload-data-page .upload-card-actions {
+        align-items: stretch;
+        flex-direction: column-reverse;
+    }
+
+    .upload-data-page .upload-card-actions .btn {
+        margin: 4px 0;
+        width: 100%;
+    }
+
+    .upload-data-page .upload-error-heading {
+        align-items: flex-start;
+    }
+
+    .upload-data-page .upload-error-count {
+        margin-left: 10px;
+    }
+}

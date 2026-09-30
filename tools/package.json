@@ -1,0 +1,15 @@
+{
+  "name": "mibtrack-demo-tools",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Test-only tooling for the MI-BTrack demo. Nothing here ships in _build.",
+  "scripts": {
+    "export-voice": "node export_tour_voice_pack.js",
+    "verify": "node verify_tour.js",
+    "live": "node live_test_tour.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "24.10.2"
+  },
+  "comment": "puppeteer-core, not puppeteer: it drives the Chrome already installed on this machine instead of downloading a second copy."
+}

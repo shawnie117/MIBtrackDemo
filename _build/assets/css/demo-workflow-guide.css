@@ -1,0 +1,87 @@
+.demo-workflow-guide {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin: 16px 0;
+    padding: 16px 18px;
+    border: 1px solid #f0c36d;
+    border-left: 5px solid #f39c12;
+    border-radius: 4px;
+    background: #fffaf0;
+    color: #4a3b20;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+.demo-workflow-guide.demo-workflow-danger {
+    border-color: #e8a7a7;
+    border-left-color: #d9534f;
+    background: #fff7f7;
+    color: #6d2927;
+}
+
+.demo-workflow-guide-icon {
+    flex: 0 0 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #f39c12;
+    color: #fff;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.demo-workflow-danger .demo-workflow-guide-icon {
+    background: #d9534f;
+}
+
+.demo-workflow-guide-content {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.demo-workflow-guide h4 {
+    margin: 0 0 5px;
+    color: inherit;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.demo-workflow-guide p {
+    margin: 0 0 10px;
+    line-height: 1.5;
+}
+
+.demo-workflow-guide ol {
+    margin: 7px 0 12px 20px;
+    padding: 0;
+}
+
+.demo-workflow-guide li {
+    margin: 4px 0;
+}
+
+.demo-workflow-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.demo-workflow-actions .btn {
+    margin: 0;
+}
+
+.demo-workflow-inline-action {
+    display: inline-block;
+    margin: 8px 0 0 8px;
+}
+
+@media (max-width: 640px) {
+    .demo-workflow-guide {
+        display: block;
+    }
+
+    .demo-workflow-guide-icon {
+        margin-bottom: 9px;
+    }
+}

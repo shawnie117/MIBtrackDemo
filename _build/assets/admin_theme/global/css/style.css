@@ -1,0 +1,40 @@
+.alert.alert-success.alert-dismissable {
+    position: absolute;
+    top: -6rem;
+    display: block;
+    right: -9rem;
+}
+
+.alert.alert-danger.alert-dismissable {
+    position: absolute;
+    top: -6rem;
+    display: block;
+    right: -9rem;
+}
+
+.col-md-6 .notification-alert {
+    position: unset;
+    min-width: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+.followuptbl {
+  height: 200px;
+}
+.tbl-box{
+  overflow-x:scroll;
+  padding: 10px;
+}
+.table-condensed{
+  width: 800px;
+}
+.tbl-container{
+  overflow-x:scroll;
+  overflow-y:scroll;
+  /* height: 300px; */
+}
+#Srtable{
+  width: 619px;
+}
+}

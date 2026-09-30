@@ -1,0 +1,260 @@
+/* =====================================================================
+ * MI-BTrack guided demo - player styling (v3)
+ * ---------------------------------------------------------------------
+ * DEMO-ONLY. This file styles the tour shell that sits AROUND the real
+ * application. It must never style anything inside the iframe, so the
+ * vendor pages keep their original Metronic look exactly as shipped.
+ *
+ * Layout: a three-row grid - top bar, stage (the real page), player.
+ * The spotlight is positioned inside .tour-stage, which is why the
+ * runtime converts element coordinates into stage coordinates.
+ * ===================================================================== */
+
+:root {
+    --navy: #13233a;
+    --navy-2: #203652;
+    --blue: #2878f0;
+    --cyan: #32c8d9;
+    --ink: #172033;
+    --muted: #6b778c;
+    --line: #ccd5e2;
+    --warn-bg: #fff6e6;
+    --warn-line: #e8a33d;
+    --warn-ink: #7a4b06;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    background: #eaf0f8;
+    color: var(--ink);
+}
+
+.tour-app {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 58px 1fr auto;
+}
+
+/* ---------------------------------------------------------------- top bar */
+
+.tour-topbar {
+    z-index: 30;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+    gap: 16px;
+}
+.tour-topbar strong { font-size: 17px; }
+.tour-topbar strong + span { margin-left: 14px; color: #a9c6ef; font-size: 13px; }
+.tour-top-actions { display: flex; align-items: center; gap: 10px; font-size: 12px; }
+.tour-language-badge {
+    border: 1px solid #54708e;
+    background: rgba(255,255,255,.08);
+    border-radius: 999px;
+    padding: 7px 12px;
+    color: #dcecff;
+    font-weight: 600;
+}
+.tour-topbar select,
+.tour-topbar button,
+.tour-topbar a {
+    border: 1px solid #54708e;
+    background: var(--navy-2);
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px 10px;
+    text-decoration: none;
+    font: inherit;
+    cursor: pointer;
+}
+.tour-topbar button:hover, .tour-topbar a:hover { background: #2b4767; }
+
+/* ------------------------------------------------------------------ stage */
+
+.tour-stage { position: relative; min-height: 0; }
+.tour-stage iframe { width: 100%; height: 100%; border: 0; background: #fff; display: block; }
+
+/* Clicks are blocked while the tour is driving, and handed over in
+   Take control mode. This is the only mechanism used - the real page is
+   never modified to achieve it. */
+.tour-stage:not(.manual) iframe { pointer-events: none; }
+.tour-stage.manual iframe { pointer-events: auto; }
+
+/* A visible border makes it obvious who is in charge of the screen. */
+.tour-stage.manual { box-shadow: inset 0 0 0 3px var(--cyan); }
+.tour-stage.manual::after {
+    content: "You are in control";
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    z-index: 20;
+    background: var(--cyan);
+    color: #06313a;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 11px;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+/* The highlight ring. No positional transition: the runtime repositions
+   it every animation frame to follow scrolling, and a transition would
+   make it lag behind the element it is meant to be pointing at. */
+#tour-spotlight {
+    display: none;
+    position: absolute;
+    z-index: 15;
+    border: 3px solid var(--cyan);
+    border-radius: 6px;
+    box-shadow: 0 0 0 9999px rgba(10, 22, 40, .38), 0 0 16px rgba(50, 200, 217, .85);
+    pointer-events: none;
+}
+
+/* --------------------------------------------------------- start overlay */
+
+/* The tour waits for a real click. Browsers refuse to play audio that was
+   not started by a user gesture, so without this the first step is mute. */
+#tour-start {
+    position: absolute;
+    inset: 0;
+    z-index: 25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(10, 22, 40, .72);
+    backdrop-filter: blur(2px);
+}
+.tour-start-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 30px 34px;
+    max-width: 560px;
+    text-align: center;
+    box-shadow: 0 18px 50px rgba(10, 22, 40, .4);
+}
+.tour-start-card h2 { margin: 0 0 10px; font-size: 22px; }
+.tour-start-card p { margin: 0 0 8px; font-size: 15px; line-height: 1.5; color: #45536b; }
+.tour-start-card ul { margin: 12px 0 18px; padding-left: 20px; text-align: left; color: #45536b; font-size: 14px; line-height: 1.6; }
+#tour-start-btn {
+    border: 0;
+    background: var(--blue);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#tour-start-btn:hover { background: #1c66d8; }
+#tour-start-btn:disabled { opacity: .5; cursor: not-allowed; }
+
+/* ----------------------------------------------------------------- player */
+
+.tour-player {
+    z-index: 40;
+    background: #fff;
+    box-shadow: 0 -8px 30px rgba(25, 45, 75, .18);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    min-height: 158px;
+    position: relative;
+    padding: 22px 26px 18px;
+    gap: 20px;
+}
+.tour-progress { position: absolute; left: 0; right: 0; top: 0; height: 5px; background: #e4eaf3; }
+.tour-progress span { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--blue), var(--cyan)); transition: width .3s; }
+
+.tour-copy { max-width: 880px; }
+#tour-chapter {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-bottom: 2px;
+}
+.tour-copy h2 { margin: 3px 0 6px; font-size: 20px; }
+.tour-copy p { font-size: 15px; line-height: 1.5; margin: 0 0 6px; }
+.tour-copy small, #tour-counter { color: var(--muted); font-size: 12px; }
+
+/* Keep the real screen usable on laptop displays when a narration is long. */
+@media (max-height: 800px) {
+    #tour-caption { max-height: 180px; overflow-y: auto; padding-right: 6px; }
+}
+
+/* The live action line. Says what the tour is doing right now, e.g.
+   "Typing the plan name" or "Saving...". Separate from the narration so
+   the audience can tell an explanation from an action. */
+#tour-cue {
+    display: none;
+    margin: 6px 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #0d6d7c;
+    background: #e7f8fa;
+    border-left: 3px solid var(--cyan);
+    padding: 6px 10px;
+    border-radius: 0 5px 5px 0;
+}
+
+.tour-controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-content: flex-start; }
+.tour-controls button {
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    background: #f7f9fc;
+    color: #263750;
+    padding: 10px 14px;
+    cursor: pointer;
+    font: inherit;
+}
+.tour-controls button:hover:not(:disabled) { background: #eef2f8; }
+.tour-controls .primary { background: var(--blue); border-color: var(--blue); color: #fff; min-width: 96px; }
+.tour-controls .primary:hover:not(:disabled) { background: #1c66d8; }
+.tour-controls button:disabled { opacity: .45; cursor: not-allowed; }
+
+/* -------------------------------------------------------- recovery panel */
+
+/* Shown when the real application did not do what the step needed. It
+   never hides the failure or pretends the step succeeded - it explains
+   what happened and offers a way forward. */
+#tour-error {
+    display: none;
+    grid-column: 1 / -1;
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-line);
+    border-radius: 9px;
+    padding: 14px 16px;
+}
+#tour-error-title { margin: 0 0 5px; font-size: 15px; font-weight: 700; color: var(--warn-ink); }
+#tour-error-text { margin: 0 0 11px; font-size: 14px; line-height: 1.5; color: #6a4a12; }
+.tour-error-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.tour-error-actions button {
+    border: 1px solid var(--warn-line);
+    background: #fff;
+    color: var(--warn-ink);
+    border-radius: 6px;
+    padding: 8px 13px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 13px;
+}
+.tour-error-actions button:hover { background: #fff0d8; }
+
+/* ------------------------------------------------------------ small screens */
+
+@media (max-width: 900px) {
+    .tour-top-actions label { display: none; }
+    .tour-player { grid-template-columns: 1fr; padding: 16px 14px; }
+    .tour-controls { justify-content: flex-start; }
+    .tour-copy h2 { font-size: 17px; }
+    .tour-copy p { font-size: 14px; }
+    .tour-start-card { padding: 22px; margin: 16px; }
+}

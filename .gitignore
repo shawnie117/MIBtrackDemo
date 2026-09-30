@@ -1,0 +1,23 @@
+# Local credentials and generated/private data
+*.env
+.env*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.log
+.codex*
+/artifacts/
+**/node_modules/
+**/live_shots/
+**/__pycache__/
+/_build/application/logs/*
+!/_build/application/logs/index.html
+/_build/application/cache/*
+!/_build/application/cache/index.html
+/_build/final_check.png
+/tools/*.txt
+/tools/*_report.json
+/tools/smoke_report.json
+**/sess_*
+**/ci_session*

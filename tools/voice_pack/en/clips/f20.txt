@@ -1,0 +1,1 @@
+After that in All Quotations Report, we will see all the Quotations we have made. We can edit that quotation and we can also take follow-up of the quotation. As we have sent the Quotation to the Customer, then we can also add when to make the Next Call Quotation.

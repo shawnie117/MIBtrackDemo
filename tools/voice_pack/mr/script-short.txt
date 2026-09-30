@@ -1,0 +1,101 @@
+MI-BTrack guided demo - narration script
+Tour: short        Language: Marathi
+Steps: 12
+
+HOW TO USE THIS FILE
+  Record one clip per numbered block below. Save it as the file name
+  shown in [brackets]. Read only the line after "SAY:" - the heading and
+  the screen note are here for your context and must not be spoken.
+
+  Clips are shared between tours. If a file already exists from another
+  tour, skip it - do not record or pay for it twice.
+
+==========================================================================
+
+
+---- CHAPTER: F01 ----------------------------------------------------
+
+  1. [f01.mp3]   (38 characters)
+     SCREEN: vendor/dashboard   focus: .page-content
+     SAY:    हा आपला MI-Btrack CRM चा डॅशबोर्ड आहे.
+
+
+---- CHAPTER: F03 ----------------------------------------------------
+
+  2. [f03.mp3]   (200 characters)
+     SCREEN: vendor/masters/add_amc   focus: #amc_name
+     SAY:    त्यानंतर आपण Master Section मध्ये जाऊन Add New AMC मध्ये AMC ॲड करून ठेवूयात. AMC मध्ये आपण ज्या काही सर्विसेस कस्टमर्सला देत आहोत, ज्या काही AMC देत आहोत, त्या सर्व AMC त्यामध्ये ॲड करून ठेवणार आहोत.
+
+
+---- CHAPTER: F06 ----------------------------------------------------
+
+  3. [f06.mp3]   (407 characters)
+     SCREEN: vendor/leads/add_lead   focus: #lead_name
+     SAY:    आपल्याला ज्या कुठल्याही प्लॅटफॉर्ममधून लीड्स येत आहेत, जसे की Just Dial, IndiaMart, Meta Ads, Google किंवा आपण कोणतेही कॅम्पेन रन करत असाल, तर तिथून आलेली लीड डायरेक्टली आपल्या CRM मध्ये येईल. ती लीड आपल्याला आपल्या CRM च्या डॅशबोर्डवरती दिसेल की ती लीड आपल्याला कुठल्या प्लॅटफॉर्मवरून आलेली आहे. किंवा आपल्याला लीड मॅन्युअली ॲड करायची असेल, तर आपण Leads मध्ये जाऊन Add New Lead मध्ये ती लीड ॲड करून घेऊयात.
+
+
+---- CHAPTER: F08 ----------------------------------------------------
+
+  4. [f08.mp3]   (335 characters)
+     SCREEN: vendor/leads/add_lead_follwoup?id=NzAwOA%3D%3D   focus: #followup_feedback
+     SAY:    लीड ॲड केल्यानंतर आपण त्या लीडचा फॉलो-अप घेऊ शकतो, जेणेकरून ती लीड आपल्या कस्टमरमध्ये कन्वर्ट होईल. यासाठी आपल्या त्या लीडसोबत जे काही डिस्कशन झालं आहे, ते आपण फॉलो-अपमध्ये ॲड करून घेऊ शकतो. जेणेकरून उद्या जेव्हा आपल्याला त्या लीडबद्दल पुन्हा बोलायचं असेल, तेव्हा मागच्या वेळेस काय बोलणं झालं होतं, हे आपल्याला लक्षात ठेवायची गरज नाही.
+
+
+---- CHAPTER: F10 ----------------------------------------------------
+
+  5. [f10.mp3]   (1249 characters)
+     SCREEN: vendor/customers/add_customer   focus: #cust_name
+     SAY:    त्यानंतर आपण कस्टमर्स ॲड करून ठेवूयात. Customers मध्ये Add New Customer मध्ये जाऊयात. त्यानंतर आपण कस्टमरचे सर्व डिटेल्स यामध्ये एंटर करून ठेवूयात. Service Type मध्ये AMC सिलेक्ट करूयात आणि GST Option मध्ये With GST सिलेक्ट करूयात. त्यानंतर कस्टमरचा GST नंबर असेल, तर तोही आपण टाकू शकतो. त्यानंतर कस्टमरचे नाव आपण टाकून घेऊयात, त्यांचा कॉन्टॅक्ट नंबर आणि ईमेल आयडी असे सर्व डिटेल्स आपण इथे फिल करून घेऊयात. कस्टमरचा ॲड्रेसदेखील आपण यात टाकू शकतो. कस्टमर कधी ॲड झालेला आहे, हे आपण Customer Added Date मध्ये टाकून घेऊयात. त्यानंतर खाली आलेल्या सर्विसेसमधून जी काही AMC आपण त्याला देत आहोत, ती AMC आपण सिलेक्ट करून घेऊयात. AMC ची जी काही रक्कम आहे, ती अमाऊंट इथे येते. जर आपल्याला ती एडिट करायची असेल, तर तेही आपण इथून करू शकतो. आपण कस्टमरला ज्या दिवशी सर्विस देत आहोत, ती दिनांक जर आपल्याला चेंज करायची असेल, तर तेही आपण चेंज करू शकतो. कस्टमरने जर पेमेंट ऑलरेडी केलेलं असेल, तर Paid Amount जी काही असेल, ती आपण Payment Mode मध्ये Cash, Online जे काही असेल ते सिलेक्ट करून तिथे अमाऊंट टाकू शकतो. त्यानंतर या कस्टमरचा आपल्याला Reference By ॲड करायचा असेल, तर तोही आपण इथे ॲड करू शकतो. Alternate Contact Numbers वगैरे आपण ॲड करू शकतो, जेणेकरून कस्टमर जर अवेलेबल नसेल, तर अल्टरनेट कॉन्टॅक्ट नंबरवर कॉल करता येईल. त्यानंतर आपण तो कस्टमर Submit करून देऊयात.
+
+
+---- CHAPTER: F11 ----------------------------------------------------
+
+  6. [f11.mp3]   (917 characters)
+     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .page-content
+     SAY:    कस्टमर सबमिट झाल्यानंतर ज्या काही AMC सर्विसेस आपण कस्टमरला देत आहोत, त्या आपल्याला खाली दिसतील. ती सर्विस जर कंप्लेंटची असेल, तर आपण तिथे Cancel Service करून Completed Reason टाकून ती सर्विस सबमिट करू शकतो. किंवा जर ही सर्विस आपल्याला शेड्युल करायची असेल आणि कोणाला टास्क असाइन करायचा असेल, तर आपण Schedule मध्ये क्लिक करून, Schedule या बटनावर क्लिक करून ती सर्विस शेड्युल करू शकतो. आपण जर डॅशबोर्डवरती जाऊन चेक केलं, तर आपल्याला Pending Services मध्ये आपण कस्टमर क्रिएट केलेला आहे, त्याची सर्विस दाखवेल की या कस्टमरची सर्विस बाकी आहे. मग आपण त्या कस्टमरवरती क्लिक करून त्याची सर्विस आपण Complete करू शकतो. त्यानंतर आपण या कस्टमरबद्दल जे काही फॉलो-अप असेल, ते फॉलो-अप्सदेखील खाली Add Follow-ups मध्ये जाऊन ॲड करू शकतो. आणि जर पेमेंट नंतर आले असेल, तर Payment या बटनवरती क्लिक करून आपण ते पेमेंट देखील ॲड करू शकतो. ज्या कोणत्या कस्टमरचे पेमेंट पेंडिंग आहे, ते देखील आपल्याला डॅशबोर्डवरती Payment Defaulters असे दिसेल.
+
+
+---- CHAPTER: F14 ----------------------------------------------------
+
+  7. [f14.mp3]   (1275 characters)
+     SCREEN: vendor/admin/add_employee   focus: #emp_name
+     SAY:    आपले जे काही टेक्निशियन, फिल्ड वर्कर्स वगैरे आहेत, तर त्यांचे लोकेशन विथ टायमिंग ट्रॅक करण्यासाठी आपण Employee Attendance आणि Employee Location Tracking हे फीचर्स CRM मध्ये यूज केलेले आहेत. तर त्यासाठी आपण सगळ्यात पहिले आपले जे काही सर्व Employees आहेत, ते Create करून घ्यायचे आहेत. तर Employee मध्ये Add New Employee या सेक्शनमध्ये जाऊन तेथे आपल्याला आपल्या Employee चे सर्व डिटेल्स टाकायचे आहेत. जसे की Employee चे नाव, Employee चा Contact Number, ते Employee कोणाला Report करतात, त्यांचे Designation काय आहे, जसे की Employee आहे, Sales Person आहे, Technician आहे का किंवा त्याला आपल्याला Admin बनवायचा आहे, ते Designation आपण Choose करायचे. Employee च्या Designation नुसार त्याला Permissions Assign होतात. म्हणजेच त्याला आपण जे काही Permissions देऊ, त्यानुसार त्याचा Dashboard Visible करू शकतो आणि त्यानुसार तो आपले CRM Access करू शकतो. त्यानंतर Employee च्या Department मध्ये त्याचे Department टाकायचे आहे. Location Tracking ला Yes करायचा आहे, जेणेकरून आपल्याला Field वरती गेलेल्या Employee चे Location कळेल. त्यानंतर Employee ची Joining Date आणि Address वगैरे टाकून घ्यायचा आहे. आपण आपल्या Employee चे Bank Details देखील Add करू शकतो किंवा त्याचे इतर Details देखील Add करू शकतो. त्यानंतर आपण आपल्या Employee चे Details Submit या Button वरती क्लिक करून Submit करायचे आहे.
+
+
+---- CHAPTER: F16 ----------------------------------------------------
+
+  8. [f16.mp3]   (944 characters)
+     SCREEN: vendor/customers/add_ticket   focus: #tkt_title
+     SAY:    लेफ्ट साईडला Tickets मध्ये Add New Ticket मध्ये आपण नवीन Ticket Create करू शकतो, जेणेकरून आपण आपल्या Employees ला Task Assign करू शकतो. त्यामध्ये Customer Type मध्ये आपण Ticket कस्टमर, लीड किंवा दुसऱ्या कोणासाठी Assign करत आहोत, ते Select करायचे. त्यानंतर आपण त्या Customer किंवा Lead चे नाव खाली दिलेल्या Dropdown मध्ये Select करायचे. Ticket Title मध्ये आपण आपल्या Employees ला जे काही Instructions देऊ इच्छितो, त्या Instructions आपण टाकायच्या. Ticket Priority मध्ये हे Ticket Solve करणे किती Priority चे आहे, म्हणजेच High, Medium किंवा Low, ते आपण Select करायचे. त्यानंतर Ticket Description मध्ये Task Resolve करण्यासाठी Employees ला जे काही Details किंवा Description द्यायचे आहे, ते आपण Ticket Description मध्ये टाकायचे. त्यानंतर हे Ticket आपल्याला कोणत्या Employee ला Assign करायचे आहे, ते Ticket Assign मध्ये त्या Employee चे नाव Select करायचे. Ticket आपण कधी Assign केली आहे, त्याची Date आणि Time टाकायची आणि नंतर ते Ticket Submit करायचे.
+
+
+---- CHAPTER: F17 ----------------------------------------------------
+
+  9. [f17.mp3]   (1836 characters)
+     SCREEN: vendor/customers/ticket_report   focus: .portlet.light.bordered
+     SAY:    टिकीट असाइन केल्यानंतर Employee आपल्या मोबाईल ॲप्लिकेशनमध्ये My Tickets मध्ये जाऊन त्याला असाइन केलेले Tickets बघू शकतो. त्या पर्टिक्युलर Ticket वरती क्लिक करून तो त्याचे Details बघू शकतो की हे Ticket कोणत्या Customer किंवा Lead बद्दल Create केलेले आहे आणि त्यांचे Location काय आहे. त्यामध्ये Description मध्ये तो बघू शकतो की त्याला Field वरती जाऊन नेमके काय काम करायचे आहे. आणि जेव्हा तो त्या Field वरती जाईल, तेव्हा तो त्या Ticket वरती क्लिक करून Right Side Corner वरती असलेल्या तीन डॉट्सवरती क्लिक करेल. त्यानंतर तिथे Start Ticket हा Option येईल. Start Ticket वरती क्लिक केल्यानंतर त्यांना Start Ticket Remark टाकावा लागेल. त्यामध्ये ते Starting Work असे Remark टाकू शकतात. त्यानंतर Start Ticket या बटनवरती क्लिक करून ते Ticket Start करू शकतात. Ticket Start केल्यानंतर जेव्हा त्यांचे Work पूर्ण होईल, त्यानंतर परत याचप्रमाणे Right Side Corner वरती असलेल्या तीन डॉट्सवरती क्लिक करून तिथे Update Ticket असा Option येईल. त्या Update Ticket Option वरती क्लिक केल्यानंतर त्यामध्ये Review आणि Description असे Fields असतील. Review मध्ये Customer ला कोणती Service Provide केली आहे, ते ते लिहू शकतात. Description मध्ये त्यांनी Customer च्या ठिकाणी काही Extra Material वगैरे वापरले आहे, काही Work Incomplete आहे किंवा परत Field वरती Visit करायची आहे, यासारखी माहिती ते Detail मध्ये लिहू शकतात. त्यानंतर Work Type मध्ये काय काम केले आहे, जसे की Service केली आहे, Repair केली आहे किंवा Both, यापैकी योग्य Option Select करू शकतात. त्यानंतर Status मध्ये Open आणि Resolved असे Options असतील. जर काम पूर्ण झालेले नसेल आणि परत एकदा Visit करायची असेल, तर तिथे Open Select करू शकता. आणि जर काम पूर्ण झालेले असेल, तर Resolved Option Select करू शकता. त्यानंतर Browse वरती क्लिक करून ते कामाशी संबंधित Image Capture किंवा Upload करू शकतात. Image Capture केल्यानंतर Update या बटनवरती क्लिक करायचे. त्यानंतर Client Signature घेऊन ते Ticket Submit करू शकतात.
+
+
+---- CHAPTER: F19 ----------------------------------------------------
+
+ 10. [f19.mp3]   (1648 characters)
+     SCREEN: vendor/reports/add_quotation   focus: #p_quote_name
+     SAY:    एमआय बी-ट्रॅक सीआरएममध्ये आपण कोटेशन देखील तयार करू शकतो. लेफ्ट साईडला Quotations मध्ये जाऊन Add New Quotation सिलेक्ट करा. त्यानंतर तेथे Customer Type मध्ये Customer आणि Leads हे दोन ऑप्शन्स दिसतील. आपल्याला ज्याच्यासाठी कोटेशन बनवायचे आहे, ते ऑप्शन सिलेक्ट करा. आपण येथे Customer ऑप्शन सिलेक्ट करूया. त्यानंतर Lead किंवा Customer चे जे नाव आहे, ते ड्रॉपडाऊनमधून सिलेक्ट करा. कोटेशन बनवण्याची किंवा कोटेशन सेंड करण्याची Priority काय आहे, ते सिलेक्ट करूया. High, Medium, Low असे तीन ऑप्शन्सपैकी आपण एक ऑप्शन सिलेक्ट करू शकतो. त्यानंतर GST Type मध्ये GST Applicable आहे का किंवा Without GST आहे, ते सिलेक्ट करा. कोटेशन क्रिएट करण्याची जी Date आहे, ती आपण तिथे टाकू शकतो. त्यानंतर Address, Contact Number हे सर्व Fields Fill करा. त्यानंतर Subject मध्ये आपण कोटेशन क्रिएट करताना जो काही Subject आहे, तो Subject तिथे ॲड करू शकता. जसे की Quotation for General Pest Management Service. त्यानंतर जे काही Description लिहायचे आहे, ते आपण कोटेशनमध्ये लिहू शकतो. Product Details मध्ये कोटेशन कोणत्या Product किंवा Service साठी आपण बनवत आहोत, ते सिलेक्ट करायचे. मी येथे AMC सिलेक्ट केले आहे. AMC मध्ये कोणती AMC आहे, तर General Pest Management मी सिलेक्ट केलेली आहे. Description मध्ये आपण त्या AMC बद्दलचे Description लिहू शकतो. जसे की, “In this AMC, we are providing six services.” त्यानंतर खाली Terms and Conditions टाकू शकतो, जे आपल्याला कोटेशनमध्ये पाहिजे आहेत. आपण हे Terms and Conditions एकत्रित ॲड करून CRM मध्ये ठेवू शकतो, जेणेकरून प्रत्येक कोटेशनसाठी तेच Terms and Conditions वापरता येतील. किंवा आपण कोटेशन क्रिएट करताना ज्या काही Terms आपल्याला वेगवेगळ्या आणि Required आहेत, त्या आपण तिथे देखील ॲड करू शकतो. त्यानंतर हे कोटेशन आपण Submit करून ठेवूया.
+
+
+---- CHAPTER: F21 ----------------------------------------------------
+
+ 11. [f21.mp3]   (626 characters)
+     SCREEN: vendor/reports/daily_analysis_report   focus: .portlet.light.bordered
+     SAY:    एमआय बी-ट्रॅक सीआरएममध्ये आपण व्हिज्युअलाइज्ड रिपोर्ट किंवा ॲनालिसिस रिपोर्ट देखील बघू शकतो. त्यासाठी लेफ्ट साईडला Reports वरती क्लिक करून Daily Analysis Report वरती सिलेक्ट करा. Daily Analysis Report मध्ये आपण आपल्या पर्टिक्युलर Employee चा Daily Report बघू शकतो. इथे त्यांनी आज किती Leads Generate केल्या, त्यापैकी किती Leads चे Follow-Ups घेतले आहेत, त्यांचे किती Follow-Ups Pending आहेत, त्यांनी किती Tickets Resolve केल्या आहेत, त्यांनी किती Payment Collect केलं आहे, हे सर्व काही आपण Daily Analysis Report मध्ये बघू शकतो. त्यामध्ये आपण त्या Employee चा पर्टिक्युलर एका Month चा किंवा काही दिवसांचा Report देखील बघू शकतो.
+
+
+---- CHAPTER: F22 ----------------------------------------------------
+
+ 12. [f22.mp3]   (906 characters)
+     SCREEN: vendor/reports/roi_report   focus: .roi-dashboard
+     SAY:    अशाच प्रकारे Market Analysis Report देखील आपण बघू शकतो. Reports मध्ये Market Analysis Report वरती क्लिक करून आपण Market Analysis Report बघू शकतो. यामध्ये आपण बघू शकतो की आपल्याला किती Leads आल्या आहेत आणि त्यापैकी किती Leads आपल्या Customers मध्ये Convert झाल्या आहेत. इथे आपल्याला Conversion Rate देखील दिसतो. त्यानंतर Employee-wise Performance आपण येथे बघू शकतो, ज्यामध्ये पर्टिक्युलर Employee ने किती Leads Convert केल्या आहेत, ते आपल्याला दिसेल. त्यानंतर Lead Activity Log मध्ये आपण बघू शकतो की पर्टिक्युलर Employee कोणत्या Lead चा Follow-Up घेत आहे. आपल्याला येथे Employee ROI आणि Reference ROI देखील बघायला मिळतील. Reference ROI मधून आपल्याला एक आयडिया मिळेल की आपल्याला जास्त Business कोणत्या प्लॅटफॉर्मवरून येत आहे. आणि Employee ROI मध्ये आपल्याला आपल्या Employee चा Performance कसा आहे, हे कळेल. पर्टिक्युलर Employee ने किती Leads Customer मध्ये Convert केलेल्या आहेत, हे देखील आपल्याला बघता येईल.
+
+==========================================================================
+Total for this tour: 10381 characters, roughly 11m 56s of speech.
+Remember that clips shared with another tour only cost once.
