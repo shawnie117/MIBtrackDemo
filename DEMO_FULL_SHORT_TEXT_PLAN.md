@@ -48,6 +48,8 @@ Each Full Demo step below has up to three parts:
 
 ## 3. Full Demo sequence
 
+Correction on 30 September 2026: Enquiry For belongs to Add Lead (F07), and its duplicate explanation was removed from the follow-up dashboard chapter (F09). The F09 recordings and translations follow that correction. F02–F04 now demonstrate every listed master detail, including the calculated interval fields. Other supplied narration remains unchanged.
+
 ### F01 Dashboard introduction
 
 **Page and action:** Open the dashboard.
@@ -206,8 +208,6 @@ Each Full Demo step below has up to three parts:
 > CRM चा डॅशबोर्ड ओपन केल्यावर आपल्याला तिथे डॅशबोर्डवरती दिसेल की आपल्याला आज किती लीड्सचे फॉलो-अप्स घ्यायचे आहेत आणि किती कस्टमर्सचे आज फॉलो-अप्स घ्यायचे आहेत.
 
 > लीड्स आणि फॉलो-अप मॅनेजमेंटमुळे आपला जो काही बिझनेस आहे, तो प्रोसेस डिपेंडंट होतो.
-
-> लीड्स ॲड करताना Enquiry For मध्ये आपल्याला ती लीड कोणत्या सर्विससाठी आली आहे, हे आपण तिथे टाकू शकतो. जेणेकरून आपल्याला एक आयडिया मिळेल की कोणत्या सर्विसेससाठी आपल्याला जास्त लीड्स येत आहेत.
 
 ### F10 Customers Add New Customer
 

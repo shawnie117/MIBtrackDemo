@@ -44,13 +44,39 @@ const screens = {
 
 const cues = {
   F02: [
-    ['type', '#pdt_name', 'Rat Repellent']
+    ['select', '#p_brand_id', null, 'Black Hit'],
+    ['type', '#pdt_name', 'Rat Repellent'],
+    ['click', '#pdt_desc'],
+    ['type', '#pdt_desc', 'Rat repellent for pest control'],
+    ['type', '#pdt_regular_price', '1500'],
+    ['type', '#pdt_comm_price', '1200'],
+    ['type', '#pdt_warranty_period', '365'],
+    ['type', '#p_noofservices', '2'],
+    ['focus', '#p_sit'],
+    ['type', '#pdt_gst', '18'],
+    ['focus', '#mybutton']
   ],
   F03: [
-    ['type', '#amc_name', 'General Pest Management']
+    ['type', '#amc_name', 'General Pest Management'],
+    ['click', '#amc_desc'],
+    ['type', '#amc_desc', 'GPMS AMC for 1 year'],
+    ['type', '#amc_duration', '365'],
+    ['type', '#amc_noofservices', '6'],
+    ['focus', '#amc_sit'],
+    ['type', '#amc_gst', '18'],
+    ['type', '#amc_price', '2000'],
+    ['type', '#amc_corporate_price', '1900'],
+    ['focus', '#mybutton']
   ],
   F04: [
-    ['type', '#ots_name', 'General OTS']
+    ['type', '#ots_name', 'General OTS'],
+    ['click', '#ots_type'],
+    ['type', '#ots_type', 'One time service'],
+    ['type', '#ots_desc', 'For cleaning service at one time'],
+    ['type', '#ots_gst', '18'],
+    ['type', '#price_regular', '500'],
+    ['type', '#price_comm', '700'],
+    ['focus', '#mybutton']
   ],
   F05: [
     ['type', '#ref_name', 'Google']
@@ -61,19 +87,23 @@ const cues = {
   ],
   F07: [
     ['type', '#lead_name', 'Ambar Patil'],
+    ['type', '#lead_contact', '4515554454'],
+    ['type', '#lead_desc', 'New amc required'],
+    ['select', '#lead_priority', null, 'High'],
+    ['type', '#company_name', 'ABC Industries'],
     ['expand', '[data-target="#additional_details"]', null, null, '#additional_details'],
     ['expand', '[data-target="#reference_section"]', null, null, '#reference_section'],
     ['select', '#lead_refby', null, 'Google'],
     ['expand', '[data-target="#alt_contact_section"]', null, null, '#alt_contact_section'],
-    ['type', '.lead_altcontact', '4578325451']
+    ['type', '.lead_altcontact', '4578325451'],
+    ['select', '#lead_productid', null, 'General Pest Management']
   ],
   F08: [
     ['click', 'a[title="Add Follow-up"]'],
     ['type', '#followup_feedback', 'Need Followup']
   ],
   F09: [
-    ['focus', '.todays-my-followups'],
-    ['navigate', 'vendor/leads/add_lead', null, null, '#lead_productid']
+    ['focus', '.todays-my-followups']
   ],
   F10: [
     ['select', '#cust_service_type', null, 'AMC'],
@@ -226,9 +256,12 @@ const cues = {
 // The clip is the clock. These positions follow the subject's first mention
 // in the approved spoken script, rather than starting all actions together.
 const cueAt = {
-  F02: [.78], F03: [.27], F04: [.78], F05: [.80], F06: [.86, .93],
-  F07: [0, .01, .03, .11, .27, .34], F08: [.05, .44],
-  F09: [.37, .80],
+  F02: [.05, .12, .23, .23, .36, .45, .54, .64, .72, .80, .91],
+  F03: [.12, .25, .25, .36, .45, .54, .63, .72, .81, .91],
+  F04: [.08, .22, .22, .36, .52, .65, .78, .91],
+  F05: [.80], F06: [.86, .93],
+  F07: [0, 0, 0, 0, 0, .01, .03, .11, .27, .34, .84], F08: [.05, .44],
+  F09: [.49],
   F10: [.13, .17, .22, .27, .30, .33, .38, .43, .46, .49, .51, .53, .62, .65, .70, .74, .82, .88],
   F11: [.13, .28, .42, .64, .72, .91],
   F13: [.05, .28, .42, .52, .58, .75],

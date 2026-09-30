@@ -51,29 +51,29 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F06 ----------------------------------------------------
 
   6. [f06.mp3]   (407 characters)
-     SCREEN: vendor/leads/add_lead   focus: #lead_name
+     SCREEN: vendor/dashboard   focus: .page-content
      SAY:    आपल्याला ज्या कुठल्याही प्लॅटफॉर्ममधून लीड्स येत आहेत, जसे की Just Dial, IndiaMart, Meta Ads, Google किंवा आपण कोणतेही कॅम्पेन रन करत असाल, तर तिथून आलेली लीड डायरेक्टली आपल्या CRM मध्ये येईल. ती लीड आपल्याला आपल्या CRM च्या डॅशबोर्डवरती दिसेल की ती लीड आपल्याला कुठल्या प्लॅटफॉर्मवरून आलेली आहे. किंवा आपल्याला लीड मॅन्युअली ॲड करायची असेल, तर आपण Leads मध्ये जाऊन Add New Lead मध्ये ती लीड ॲड करून घेऊयात.
 
 
 ---- CHAPTER: F07 ----------------------------------------------------
 
   7. [f07.mp3]   (956 characters)
-     SCREEN: vendor/leads/add_lead   focus: #lead_name
+     SCREEN: vendor/leads/add_lead   focus: [data-target="#reference_section"]
      SAY:    लीड ॲड करताना आपल्याला ती लीड कुठून आली आहे, हे देखील आपण Reference मध्ये सिलेक्ट करून घेऊ शकतो. म्हणजे ती लीड आपल्याला IndiaMart वरून आली आहे, Instagram वरून आली आहे किंवा Google वरून आली आहे, हे आपण सिलेक्ट करू शकतो. त्यानंतर, लीड ॲड करताना आपण Alternate Contact Numbers देखील ॲड करू शकतो. जेणेकरून जेव्हा कस्टमर अवेलेबल नसेल, तेव्हा आपण त्याच्या Alternate Contact Number वरती कॉल करू शकतो. म्हणजेच, जर मुख्य कॉन्टॅक्ट नंबरवर कस्टमर अवेलेबल नसेल, तर आपण अल्टर्नेट कॉन्टॅक्ट नंबरवरती कॉल करू शकतो. रिफरन्स ॲड केल्यामुळे आपल्याला एक आयडिया कळते की आपला ROI किती आहे. जेणेकरून आपल्याला समजते की आपल्याला जास्त बिझनेस कुठून येत आहे, कोणत्या प्लॅटफॉर्मवरून जास्त लीड्स किंवा बिझनेस मिळत आहे. त्यानुसार आपण त्या प्लॅटफॉर्मवर मार्केटिंगसाठी पैसे वगैरे इन्व्हेस्ट करू शकतो. लीड्स ॲड करताना Enquiry For मध्ये आपल्याला ती लीड कोणत्या सर्विससाठी आली आहे, हे आपण तिथे टाकू शकतो. जेणेकरून आपल्याला एक आयडिया मिळेल की कोणत्या सर्विसेससाठी आपल्याला जास्त लीड्स येत आहेत
 
 
 ---- CHAPTER: F08 ----------------------------------------------------
 
   8. [f08.mp3]   (335 characters)
-     SCREEN: vendor/leads/add_lead_follwoup?id=NzAwOA%3D%3D   focus: #followup_feedback
+     SCREEN: vendor/leads/view_lead?id=NzAwOA%3D%3D   focus: a[title="Add Follow-up"]
      SAY:    लीड ॲड केल्यानंतर आपण त्या लीडचा फॉलो-अप घेऊ शकतो, जेणेकरून ती लीड आपल्या कस्टमरमध्ये कन्वर्ट होईल. यासाठी आपल्या त्या लीडसोबत जे काही डिस्कशन झालं आहे, ते आपण फॉलो-अपमध्ये ॲड करून घेऊ शकतो. जेणेकरून उद्या जेव्हा आपल्याला त्या लीडबद्दल पुन्हा बोलायचं असेल, तेव्हा मागच्या वेळेस काय बोलणं झालं होतं, हे आपल्याला लक्षात ठेवायची गरज नाही.
 
 
 ---- CHAPTER: F09 ----------------------------------------------------
 
-  9. [f09.mp3]   (651 characters)
+  9. [f09.mp3]   (461 characters)
      SCREEN: vendor/dashboard   focus: .page-content
-     SAY:    फॉलो-अप प्रॉपरली ॲड केल्याने आपली ती लीड लूज होण्याचे चान्सेस कमी असतात. आपण त्या लीड्सच्या कन्स्टंट कॉन्टॅक्टमध्ये राहतो, जेणेकरून ती लीड आपल्या कस्टमरमध्ये कन्वर्ट होण्यास मदत होते आणि कन्वर्जनचे चान्सेस जास्त असतात. CRM चा डॅशबोर्ड ओपन केल्यावर आपल्याला तिथे डॅशबोर्डवरती दिसेल की आपल्याला आज किती लीड्सचे फॉलो-अप्स घ्यायचे आहेत आणि किती कस्टमर्सचे आज फॉलो-अप्स घ्यायचे आहेत. लीड्स आणि फॉलो-अप मॅनेजमेंटमुळे आपला जो काही बिझनेस आहे, तो प्रोसेस डिपेंडंट होतो. लीड्स ॲड करताना Enquiry For मध्ये आपल्याला ती लीड कोणत्या सर्विससाठी आली आहे, हे आपण तिथे टाकू शकतो. जेणेकरून आपल्याला एक आयडिया मिळेल की कोणत्या सर्विसेससाठी आपल्याला जास्त लीड्स येत आहेत.
+     SAY:    फॉलो-अप प्रॉपरली ॲड केल्याने आपली ती लीड लूज होण्याचे चान्सेस कमी असतात. आपण त्या लीड्सच्या कन्स्टंट कॉन्टॅक्टमध्ये राहतो, जेणेकरून ती लीड आपल्या कस्टमरमध्ये कन्वर्ट होण्यास मदत होते आणि कन्वर्जनचे चान्सेस जास्त असतात. CRM चा डॅशबोर्ड ओपन केल्यावर आपल्याला तिथे डॅशबोर्डवरती दिसेल की आपल्याला आज किती लीड्सचे फॉलो-अप्स घ्यायचे आहेत आणि किती कस्टमर्सचे आज फॉलो-अप्स घ्यायचे आहेत. लीड्स आणि फॉलो-अप मॅनेजमेंटमुळे आपला जो काही बिझनेस आहे, तो प्रोसेस डिपेंडंट होतो.
 
 
 ---- CHAPTER: F10 ----------------------------------------------------
@@ -86,7 +86,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F11 ----------------------------------------------------
 
  11. [f11.mp3]   (917 characters)
-     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .page-content
+     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .followuptbl:has(a[title="Click To Schedule"])
      SAY:    कस्टमर सबमिट झाल्यानंतर ज्या काही AMC सर्विसेस आपण कस्टमरला देत आहोत, त्या आपल्याला खाली दिसतील. ती सर्विस जर कंप्लेंटची असेल, तर आपण तिथे Cancel Service करून Completed Reason टाकून ती सर्विस सबमिट करू शकतो. किंवा जर ही सर्विस आपल्याला शेड्युल करायची असेल आणि कोणाला टास्क असाइन करायचा असेल, तर आपण Schedule मध्ये क्लिक करून, Schedule या बटनावर क्लिक करून ती सर्विस शेड्युल करू शकतो. आपण जर डॅशबोर्डवरती जाऊन चेक केलं, तर आपल्याला Pending Services मध्ये आपण कस्टमर क्रिएट केलेला आहे, त्याची सर्विस दाखवेल की या कस्टमरची सर्विस बाकी आहे. मग आपण त्या कस्टमरवरती क्लिक करून त्याची सर्विस आपण Complete करू शकतो. त्यानंतर आपण या कस्टमरबद्दल जे काही फॉलो-अप असेल, ते फॉलो-अप्सदेखील खाली Add Follow-ups मध्ये जाऊन ॲड करू शकतो. आणि जर पेमेंट नंतर आले असेल, तर Payment या बटनवरती क्लिक करून आपण ते पेमेंट देखील ॲड करू शकतो. ज्या कोणत्या कस्टमरचे पेमेंट पेंडिंग आहे, ते देखील आपल्याला डॅशबोर्डवरती Payment Defaulters असे दिसेल.
 
 
@@ -100,7 +100,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F13 ----------------------------------------------------
 
  13. [f13.mp3]   (649 characters)
-     SCREEN: vendor/customers/add_customer_follwoup?id=NjAxMw%3D%3D   focus: #followup_feedback
+     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: a[title="Add Follow-up"]
      SAY:    त्यानंतर कस्टमरचा आपण प्रॉपर असा फॉलो-अप घेऊ शकतो, जेणेकरून त्या कस्टमरला आपल्याला वेळेवर सर्विसेस देता येतील. Follow-Up या बटनावरती क्लिक करून आपण Follow-Up Details मध्ये जी काही सर्विस द्यायची आहे, ती ॲड करू शकतो. त्याच्या Follow-Up Status मध्ये आपण Pending असे करू शकतो. त्यानंतर Follow-Up For मध्ये Routine आणि Follow-Up Medium मध्ये Visit वगैरे जे काही ऑप्शन आपल्याला सुटेबल असेल, ते यूज करून आपण फॉलो-अप मॅनेज करू शकतो. त्यानंतर Next Follow-Up Date and Time मध्ये आपण जी काही Date आणि Time सेट करू, त्या डेटला आपल्याला डॅशबोर्डवरती Pending Follow-Ups मध्ये त्या कस्टमरचं नाव दिसेल. जेणेकरून आपल्याला कळेल की या कस्टमरचा आज फॉलो-अप घ्यायचा आहे.
 
 
@@ -114,7 +114,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F15 ----------------------------------------------------
 
  15. [f15.mp3]   (1594 characters)
-     SCREEN: vendor/admin/emp_attendance_report   focus: .portlet.light.bordered
+     SCREEN: vendor/admin/employee_report   focus: .portlet.light.bordered
      SAY:    त्यानंतर All Employees Report मध्ये आपण जो काही Employee Create केलेला आहे, त्याच्या नावावरती क्लिक करून त्याचे Details Open होतील. त्यामध्ये त्याचा User ID आणि Password असेल. तर User ID आणि Password त्या Employee ला शेअर करायचा. अशाच प्रकारे प्रत्येक Employee चा Unique User ID आणि Password असेल. त्यानंतर आपल्या Employee ला MI-Btrack CRM ही Mobile Android App Play Store वरून Download करायला सांगायचं आहे. Download केल्यानंतर आपला जो Unique Username आणि Password आहे, तो Employee त्या App मध्ये टाकेल. त्यानंतर त्यांना OTP Receive होईल. त्या OTP ला Validate केल्यानंतर आपल्या Employee ला MI-Btrack CRM Application मध्ये त्यांचा Dashboard दिसायला लागेल. मोबाईल ॲप्लिकेशनमध्ये लेफ्ट साईडच्या कॉर्नरला तीन लाईन्स आहेत. त्याच्यावरती क्लिक केल्यानंतर Employee Attendance असा एक ऑप्शन दिसेल. त्या ऑप्शनवरती क्लिक केल्यानंतर तिथे Login आणि Logout हे दोन बटन्स असतील. Login वरती क्लिक करून आपला Selfie काढून Employee ने Attendance Submit करायचे आहे. जेव्हा ते ऑफिसमध्ये येतील किंवा फील्डवरती असतील, तेव्हा तिथून त्यांनी Attendance Mark करायचे आहे. अशाच प्रकारे जेव्हा ते Logout करतील, तेव्हा Logout वरती जाऊन आपला Selfie Upload करून Attendance Submit करायचे आहे. डेस्कटॉपवरती Employee मध्ये Attendance Report या सेक्शनवरती आपण जेव्हा क्लिक करतो, त्यानंतर तिथे आपल्याला आपल्या Employee चा Attendance Report दिसेल. अशा प्रकारे आपण आपल्या Employees ची Daily Attendance चेक करू शकतो किंवा Monthly Attendance Report देखील बघू शकतो आणि तो Download देखील करू शकतो. Attendance मध्ये आपल्या Employee ची Image, Login Time, Logout Time, Login Location आणि Logout Location ही सर्व Details आपल्याला बघायला मिळतील.
 
 
@@ -128,14 +128,14 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F17 ----------------------------------------------------
 
  17. [f17.mp3]   (1836 characters)
-     SCREEN: vendor/customers/ticket_report   focus: .portlet.light.bordered
+     SCREEN: assets/demo-mobile/index.html?screen=tickets&connected=1   focus: #ticket-list
      SAY:    टिकीट असाइन केल्यानंतर Employee आपल्या मोबाईल ॲप्लिकेशनमध्ये My Tickets मध्ये जाऊन त्याला असाइन केलेले Tickets बघू शकतो. त्या पर्टिक्युलर Ticket वरती क्लिक करून तो त्याचे Details बघू शकतो की हे Ticket कोणत्या Customer किंवा Lead बद्दल Create केलेले आहे आणि त्यांचे Location काय आहे. त्यामध्ये Description मध्ये तो बघू शकतो की त्याला Field वरती जाऊन नेमके काय काम करायचे आहे. आणि जेव्हा तो त्या Field वरती जाईल, तेव्हा तो त्या Ticket वरती क्लिक करून Right Side Corner वरती असलेल्या तीन डॉट्सवरती क्लिक करेल. त्यानंतर तिथे Start Ticket हा Option येईल. Start Ticket वरती क्लिक केल्यानंतर त्यांना Start Ticket Remark टाकावा लागेल. त्यामध्ये ते Starting Work असे Remark टाकू शकतात. त्यानंतर Start Ticket या बटनवरती क्लिक करून ते Ticket Start करू शकतात. Ticket Start केल्यानंतर जेव्हा त्यांचे Work पूर्ण होईल, त्यानंतर परत याचप्रमाणे Right Side Corner वरती असलेल्या तीन डॉट्सवरती क्लिक करून तिथे Update Ticket असा Option येईल. त्या Update Ticket Option वरती क्लिक केल्यानंतर त्यामध्ये Review आणि Description असे Fields असतील. Review मध्ये Customer ला कोणती Service Provide केली आहे, ते ते लिहू शकतात. Description मध्ये त्यांनी Customer च्या ठिकाणी काही Extra Material वगैरे वापरले आहे, काही Work Incomplete आहे किंवा परत Field वरती Visit करायची आहे, यासारखी माहिती ते Detail मध्ये लिहू शकतात. त्यानंतर Work Type मध्ये काय काम केले आहे, जसे की Service केली आहे, Repair केली आहे किंवा Both, यापैकी योग्य Option Select करू शकतात. त्यानंतर Status मध्ये Open आणि Resolved असे Options असतील. जर काम पूर्ण झालेले नसेल आणि परत एकदा Visit करायची असेल, तर तिथे Open Select करू शकता. आणि जर काम पूर्ण झालेले असेल, तर Resolved Option Select करू शकता. त्यानंतर Browse वरती क्लिक करून ते कामाशी संबंधित Image Capture किंवा Upload करू शकतात. Image Capture केल्यानंतर Update या बटनवरती क्लिक करायचे. त्यानंतर Client Signature घेऊन ते Ticket Submit करू शकतात.
 
 
 ---- CHAPTER: F18 ----------------------------------------------------
 
  18. [f18.mp3]   (1531 characters)
-     SCREEN: vendor/customers/ticket_summary_report   focus: .ticket-summary-page
+     SCREEN: vendor/customers/ticket_report   focus: .portlet.light.bordered
      SAY:    अशा प्रकारे त्यांना असाइन केलेले ते पर्टिक्युलर टास्क त्यांनी रिझॉल्व केल्यानंतर, डेस्कटॉपवरती All Ticket Details मध्ये आपण ते बघू शकतो. आपण जी पर्टिक्युलर Ticket ID असाइन केलेली होती, तिच्यासमोरील Status Open वरून चेंज होऊन Resolved असा दिसेल. त्या Ticket ID वरती क्लिक केल्यानंतर आपल्याला त्या Ticket चे पूर्ण Details दिसतील. त्यामध्ये आपल्या Employee ने Ticket किती वाजता Start केले होते आणि कधी ते Resolve केले आहे, हे आपल्याला कळेल. तसेच त्याने तिथे जे काही Remark लिहिलेले होते, जसे की Review आणि Description, ते देखील आपल्याला दिसेल. Ticket Details आपण View केल्यानंतर, त्या ठिकाणी Employee ने Upload केलेली Image आणि Client ची Signature देखील आपले Admins आणि Super Admins बघू शकतात. आणि आपल्या Employee ने Ticket Solve करण्यासाठी किती Duration घेतला आहे, ते देखील आपल्याला कळेल. टिकिट समरी रिपोर्टमध्ये आपण बघू शकतो की आपण टोटल किती Tickets असाइन केलेले होते, त्यापैकी Open Tickets किती आहेत, Reopened Tickets किती आहेत, Resolved Tickets किती आहेत आणि फायनली Closed Tickets किती आहेत. आपण Employee-wise Data देखील बघू शकतो की आपल्या कोणत्या Employee ने किती Tickets Solve केलेले आहेत. त्यामध्ये आपण Ticket Distribution देखील बघू शकतो. म्हणजेच, एखाद्या Specific Employee ला किती Tickets असाइन केलेले आहेत, त्यापैकी किती Tickets त्यांनी Open केले आहेत, किती Resolved झाले आहेत आणि किती Closed झाले आहेत. अशा प्रकारे आपण प्रत्येक Particular Employee चा Data चेक करू शकतो. त्यांचा Monthly किंवा Particular Week चा Data बघायचा असेल आणि त्यांचा Performance चेक करायचा असेल, तर ते देखील आपण Employee Ticket Summary मध्ये बघू शकतो.
 
 
@@ -174,5 +174,5 @@ HOW TO USE THIS FILE
      SAY:    Reports मध्येच All Reports मध्ये आपण आपल्या सर्व गोष्टींचा Report बघू शकतो. जसं की Masters मध्ये आपण Reference Report, AMC Report, Notification Report आणि Sale Product Report बघू शकतो. Tickets मध्ये आपण Resolved Ticket Report आणि Closed Ticket Report बघू शकतो. Admins मध्ये आपण आपल्या Employees चे Reports आणि Employee Location Reports बघू शकतो. Leads मध्ये आपण Leads Report आणि Confirmed Leads Report बघू शकतो. Customers मध्ये आपण Customer Report, Pending Customer Report, Payment Report, AMC Customer Report, Employee Availability Report, One-Time Service Report आणि Follow-Up Report बघू शकतो. Quotations मध्ये आपण Quotation Report बघू शकतो. त्यानंतर Sales मध्ये आपण Sales Report आणि GST Report बघू शकतो. Analysis Reports मध्ये आपण Complaint Analysis Report, Lead Analysis Report, Collection Report, Ticket Analysis Report आणि Payment Analysis Report बघू शकतो. Services मध्ये आपण Upcoming Service Report आणि Pending Services Report बघू शकतो. त्यानंतर Analysis Graphs देखील आपण बघू शकतो, ज्यामध्ये आपण Leads, Payments आणि Customers यांचे Analysis देखील बघू शकतो. तसेच आपण Complaints चा Report देखील बघू शकतो.
 
 ==========================================================================
-Total for this tour: 18054 characters, roughly 20m 45s of speech.
+Total for this tour: 17864 characters, roughly 20m 32s of speech.
 Remember that clips shared with another tour only cost once.

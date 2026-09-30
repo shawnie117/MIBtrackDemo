@@ -30,14 +30,14 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F06 ----------------------------------------------------
 
   3. [f06.mp3]   (407 characters)
-     SCREEN: vendor/leads/add_lead   focus: #lead_name
+     SCREEN: vendor/dashboard   focus: .page-content
      SAY:    आपल्याला ज्या कुठल्याही प्लॅटफॉर्ममधून लीड्स येत आहेत, जसे की Just Dial, IndiaMart, Meta Ads, Google किंवा आपण कोणतेही कॅम्पेन रन करत असाल, तर तिथून आलेली लीड डायरेक्टली आपल्या CRM मध्ये येईल. ती लीड आपल्याला आपल्या CRM च्या डॅशबोर्डवरती दिसेल की ती लीड आपल्याला कुठल्या प्लॅटफॉर्मवरून आलेली आहे. किंवा आपल्याला लीड मॅन्युअली ॲड करायची असेल, तर आपण Leads मध्ये जाऊन Add New Lead मध्ये ती लीड ॲड करून घेऊयात.
 
 
 ---- CHAPTER: F08 ----------------------------------------------------
 
   4. [f08.mp3]   (335 characters)
-     SCREEN: vendor/leads/add_lead_follwoup?id=NzAwOA%3D%3D   focus: #followup_feedback
+     SCREEN: vendor/leads/view_lead?id=NzAwOA%3D%3D   focus: a[title="Add Follow-up"]
      SAY:    लीड ॲड केल्यानंतर आपण त्या लीडचा फॉलो-अप घेऊ शकतो, जेणेकरून ती लीड आपल्या कस्टमरमध्ये कन्वर्ट होईल. यासाठी आपल्या त्या लीडसोबत जे काही डिस्कशन झालं आहे, ते आपण फॉलो-अपमध्ये ॲड करून घेऊ शकतो. जेणेकरून उद्या जेव्हा आपल्याला त्या लीडबद्दल पुन्हा बोलायचं असेल, तेव्हा मागच्या वेळेस काय बोलणं झालं होतं, हे आपल्याला लक्षात ठेवायची गरज नाही.
 
 
@@ -51,7 +51,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F11 ----------------------------------------------------
 
   6. [f11.mp3]   (917 characters)
-     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .page-content
+     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .followuptbl:has(a[title="Click To Schedule"])
      SAY:    कस्टमर सबमिट झाल्यानंतर ज्या काही AMC सर्विसेस आपण कस्टमरला देत आहोत, त्या आपल्याला खाली दिसतील. ती सर्विस जर कंप्लेंटची असेल, तर आपण तिथे Cancel Service करून Completed Reason टाकून ती सर्विस सबमिट करू शकतो. किंवा जर ही सर्विस आपल्याला शेड्युल करायची असेल आणि कोणाला टास्क असाइन करायचा असेल, तर आपण Schedule मध्ये क्लिक करून, Schedule या बटनावर क्लिक करून ती सर्विस शेड्युल करू शकतो. आपण जर डॅशबोर्डवरती जाऊन चेक केलं, तर आपल्याला Pending Services मध्ये आपण कस्टमर क्रिएट केलेला आहे, त्याची सर्विस दाखवेल की या कस्टमरची सर्विस बाकी आहे. मग आपण त्या कस्टमरवरती क्लिक करून त्याची सर्विस आपण Complete करू शकतो. त्यानंतर आपण या कस्टमरबद्दल जे काही फॉलो-अप असेल, ते फॉलो-अप्सदेखील खाली Add Follow-ups मध्ये जाऊन ॲड करू शकतो. आणि जर पेमेंट नंतर आले असेल, तर Payment या बटनवरती क्लिक करून आपण ते पेमेंट देखील ॲड करू शकतो. ज्या कोणत्या कस्टमरचे पेमेंट पेंडिंग आहे, ते देखील आपल्याला डॅशबोर्डवरती Payment Defaulters असे दिसेल.
 
 
@@ -72,7 +72,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F17 ----------------------------------------------------
 
   9. [f17.mp3]   (1836 characters)
-     SCREEN: vendor/customers/ticket_report   focus: .portlet.light.bordered
+     SCREEN: assets/demo-mobile/index.html?screen=tickets&connected=1   focus: #ticket-list
      SAY:    टिकीट असाइन केल्यानंतर Employee आपल्या मोबाईल ॲप्लिकेशनमध्ये My Tickets मध्ये जाऊन त्याला असाइन केलेले Tickets बघू शकतो. त्या पर्टिक्युलर Ticket वरती क्लिक करून तो त्याचे Details बघू शकतो की हे Ticket कोणत्या Customer किंवा Lead बद्दल Create केलेले आहे आणि त्यांचे Location काय आहे. त्यामध्ये Description मध्ये तो बघू शकतो की त्याला Field वरती जाऊन नेमके काय काम करायचे आहे. आणि जेव्हा तो त्या Field वरती जाईल, तेव्हा तो त्या Ticket वरती क्लिक करून Right Side Corner वरती असलेल्या तीन डॉट्सवरती क्लिक करेल. त्यानंतर तिथे Start Ticket हा Option येईल. Start Ticket वरती क्लिक केल्यानंतर त्यांना Start Ticket Remark टाकावा लागेल. त्यामध्ये ते Starting Work असे Remark टाकू शकतात. त्यानंतर Start Ticket या बटनवरती क्लिक करून ते Ticket Start करू शकतात. Ticket Start केल्यानंतर जेव्हा त्यांचे Work पूर्ण होईल, त्यानंतर परत याचप्रमाणे Right Side Corner वरती असलेल्या तीन डॉट्सवरती क्लिक करून तिथे Update Ticket असा Option येईल. त्या Update Ticket Option वरती क्लिक केल्यानंतर त्यामध्ये Review आणि Description असे Fields असतील. Review मध्ये Customer ला कोणती Service Provide केली आहे, ते ते लिहू शकतात. Description मध्ये त्यांनी Customer च्या ठिकाणी काही Extra Material वगैरे वापरले आहे, काही Work Incomplete आहे किंवा परत Field वरती Visit करायची आहे, यासारखी माहिती ते Detail मध्ये लिहू शकतात. त्यानंतर Work Type मध्ये काय काम केले आहे, जसे की Service केली आहे, Repair केली आहे किंवा Both, यापैकी योग्य Option Select करू शकतात. त्यानंतर Status मध्ये Open आणि Resolved असे Options असतील. जर काम पूर्ण झालेले नसेल आणि परत एकदा Visit करायची असेल, तर तिथे Open Select करू शकता. आणि जर काम पूर्ण झालेले असेल, तर Resolved Option Select करू शकता. त्यानंतर Browse वरती क्लिक करून ते कामाशी संबंधित Image Capture किंवा Upload करू शकतात. Image Capture केल्यानंतर Update या बटनवरती क्लिक करायचे. त्यानंतर Client Signature घेऊन ते Ticket Submit करू शकतात.
 
 

@@ -263,6 +263,10 @@
 		}
 	});
 
+	$("#amc_name").on("blur", function() {
+		$("#amc_suggestion_box").hide();
+	});
+
 	// Hide suggestion box when clicking outside
 	$(document).on("click", function(event) {
 		if (!$(event.target).closest("#amc_name, #amc_suggestion_box").length) {

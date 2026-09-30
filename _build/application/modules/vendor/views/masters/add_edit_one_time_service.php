@@ -221,6 +221,11 @@
 				},
 				success: function(response) {
 
+					// Ignore an old name search once the user moves to another field.
+					if (!$("#ots_name").is(":focus") || $("#ots_name").val().toLowerCase() !== keyword) {
+						return;
+					}
+
 					if (response.trim() != "") {
 						html = `<div style="padding: 8px 12px; font-size: 11px; font-weight: 600; color: #888; background: #f8f9fa; border-bottom: 1px solid #eee; border-radius: 4px 4px 0 0; text-transform: uppercase; letter-spacing: 0.5px;">Existing AMC </div>`;
 						$("#ots_suggestion_box").html(html + response).show();
@@ -238,6 +243,10 @@
 		}
 	});
 
+
+	$("#ots_name").on("blur", function() {
+		$("#ots_suggestion_box").hide();
+	});
 
 	// Hide suggestion box when clicking outside
 	$(document).on("click", function(event) {

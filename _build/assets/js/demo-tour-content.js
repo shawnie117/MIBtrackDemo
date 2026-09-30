@@ -46,11 +46,78 @@
     },
     "cue": [
       {
-        "id": "type-0",
+        "id": "select-0",
+        "kind": "select",
+        "selector": "#p_brand_id",
+        "at": 0.05,
+        "label": "Black Hit"
+      },
+      {
+        "id": "type-1",
         "kind": "type",
         "selector": "#pdt_name",
-        "at": 0.78,
+        "at": 0.12,
         "value": "Rat Repellent"
+      },
+      {
+        "id": "click-2",
+        "kind": "click",
+        "selector": "#pdt_desc",
+        "at": 0.23
+      },
+      {
+        "id": "type-3",
+        "kind": "type",
+        "selector": "#pdt_desc",
+        "at": 0.23,
+        "value": "Rat repellent for pest control"
+      },
+      {
+        "id": "type-4",
+        "kind": "type",
+        "selector": "#pdt_regular_price",
+        "at": 0.36,
+        "value": "1500"
+      },
+      {
+        "id": "type-5",
+        "kind": "type",
+        "selector": "#pdt_comm_price",
+        "at": 0.45,
+        "value": "1200"
+      },
+      {
+        "id": "type-6",
+        "kind": "type",
+        "selector": "#pdt_warranty_period",
+        "at": 0.54,
+        "value": "365"
+      },
+      {
+        "id": "type-7",
+        "kind": "type",
+        "selector": "#p_noofservices",
+        "at": 0.64,
+        "value": "2"
+      },
+      {
+        "id": "focus-8",
+        "kind": "focus",
+        "selector": "#p_sit",
+        "at": 0.72
+      },
+      {
+        "id": "type-9",
+        "kind": "type",
+        "selector": "#pdt_gst",
+        "at": 0.8,
+        "value": "18"
+      },
+      {
+        "id": "focus-10",
+        "kind": "focus",
+        "selector": "#mybutton",
+        "at": 0.91
       }
     ]
   },
@@ -78,8 +145,68 @@
         "id": "type-0",
         "kind": "type",
         "selector": "#amc_name",
-        "at": 0.27,
+        "at": 0.12,
         "value": "General Pest Management"
+      },
+      {
+        "id": "click-1",
+        "kind": "click",
+        "selector": "#amc_desc",
+        "at": 0.25
+      },
+      {
+        "id": "type-2",
+        "kind": "type",
+        "selector": "#amc_desc",
+        "at": 0.25,
+        "value": "GPMS AMC for 1 year"
+      },
+      {
+        "id": "type-3",
+        "kind": "type",
+        "selector": "#amc_duration",
+        "at": 0.36,
+        "value": "365"
+      },
+      {
+        "id": "type-4",
+        "kind": "type",
+        "selector": "#amc_noofservices",
+        "at": 0.45,
+        "value": "6"
+      },
+      {
+        "id": "focus-5",
+        "kind": "focus",
+        "selector": "#amc_sit",
+        "at": 0.54
+      },
+      {
+        "id": "type-6",
+        "kind": "type",
+        "selector": "#amc_gst",
+        "at": 0.63,
+        "value": "18"
+      },
+      {
+        "id": "type-7",
+        "kind": "type",
+        "selector": "#amc_price",
+        "at": 0.72,
+        "value": "2000"
+      },
+      {
+        "id": "type-8",
+        "kind": "type",
+        "selector": "#amc_corporate_price",
+        "at": 0.81,
+        "value": "1900"
+      },
+      {
+        "id": "focus-9",
+        "kind": "focus",
+        "selector": "#mybutton",
+        "at": 0.91
       }
     ]
   },
@@ -107,8 +234,55 @@
         "id": "type-0",
         "kind": "type",
         "selector": "#ots_name",
-        "at": 0.78,
+        "at": 0.08,
         "value": "General OTS"
+      },
+      {
+        "id": "click-1",
+        "kind": "click",
+        "selector": "#ots_type",
+        "at": 0.22
+      },
+      {
+        "id": "type-2",
+        "kind": "type",
+        "selector": "#ots_type",
+        "at": 0.22,
+        "value": "One time service"
+      },
+      {
+        "id": "type-3",
+        "kind": "type",
+        "selector": "#ots_desc",
+        "at": 0.36,
+        "value": "For cleaning service at one time"
+      },
+      {
+        "id": "type-4",
+        "kind": "type",
+        "selector": "#ots_gst",
+        "at": 0.52,
+        "value": "18"
+      },
+      {
+        "id": "type-5",
+        "kind": "type",
+        "selector": "#price_regular",
+        "at": 0.65,
+        "value": "500"
+      },
+      {
+        "id": "type-6",
+        "kind": "type",
+        "selector": "#price_comm",
+        "at": 0.78,
+        "value": "700"
+      },
+      {
+        "id": "focus-7",
+        "kind": "focus",
+        "selector": "#mybutton",
+        "at": 0.91
       }
     ]
   },
@@ -205,39 +379,74 @@
         "value": "Ambar Patil"
       },
       {
-        "id": "expand-1",
+        "id": "type-1",
+        "kind": "type",
+        "selector": "#lead_contact",
+        "at": 0,
+        "value": "4515554454"
+      },
+      {
+        "id": "type-2",
+        "kind": "type",
+        "selector": "#lead_desc",
+        "at": 0,
+        "value": "New amc required"
+      },
+      {
+        "id": "select-3",
+        "kind": "select",
+        "selector": "#lead_priority",
+        "at": 0,
+        "label": "High"
+      },
+      {
+        "id": "type-4",
+        "kind": "type",
+        "selector": "#company_name",
+        "at": 0,
+        "value": "ABC Industries"
+      },
+      {
+        "id": "expand-5",
         "kind": "expand",
         "selector": "[data-target=\"#additional_details\"]",
         "at": 0.01,
         "target": "#additional_details"
       },
       {
-        "id": "expand-2",
+        "id": "expand-6",
         "kind": "expand",
         "selector": "[data-target=\"#reference_section\"]",
         "at": 0.03,
         "target": "#reference_section"
       },
       {
-        "id": "select-3",
+        "id": "select-7",
         "kind": "select",
         "selector": "#lead_refby",
         "at": 0.11,
         "label": "Google"
       },
       {
-        "id": "expand-4",
+        "id": "expand-8",
         "kind": "expand",
         "selector": "[data-target=\"#alt_contact_section\"]",
         "at": 0.27,
         "target": "#alt_contact_section"
       },
       {
-        "id": "type-5",
+        "id": "type-9",
         "kind": "type",
         "selector": ".lead_altcontact",
         "at": 0.34,
         "value": "4578325451"
+      },
+      {
+        "id": "select-10",
+        "kind": "select",
+        "selector": "#lead_productid",
+        "at": 0.84,
+        "label": "General Pest Management"
       }
     ]
   },
@@ -291,23 +500,16 @@
       "en": "Lead follow-up dashboard result"
     },
     "text": {
-      "mr": "फॉलो-अप प्रॉपरली ॲड केल्याने आपली ती लीड लूज होण्याचे चान्सेस कमी असतात. आपण त्या लीड्सच्या कन्स्टंट कॉन्टॅक्टमध्ये राहतो, जेणेकरून ती लीड आपल्या कस्टमरमध्ये कन्वर्ट होण्यास मदत होते आणि कन्वर्जनचे चान्सेस जास्त असतात. CRM चा डॅशबोर्ड ओपन केल्यावर आपल्याला तिथे डॅशबोर्डवरती दिसेल की आपल्याला आज किती लीड्सचे फॉलो-अप्स घ्यायचे आहेत आणि किती कस्टमर्सचे आज फॉलो-अप्स घ्यायचे आहेत. लीड्स आणि फॉलो-अप मॅनेजमेंटमुळे आपला जो काही बिझनेस आहे, तो प्रोसेस डिपेंडंट होतो. लीड्स ॲड करताना Enquiry For मध्ये आपल्याला ती लीड कोणत्या सर्विससाठी आली आहे, हे आपण तिथे टाकू शकतो. जेणेकरून आपल्याला एक आयडिया मिळेल की कोणत्या सर्विसेससाठी आपल्याला जास्त लीड्स येत आहेत.",
-      "hi": "Follow-Up ठीक से जोड़ने पर उस Lead के छूट जाने की संभावना कम हो जाती है। हम Leads के लगातार संपर्क में रहते हैं, जिससे उस Lead को Customer में Convert करने में मदद मिलती है और Conversion की संभावना बढ़ती है। CRM का Dashboard खोलने पर हमें दिखाई देता है कि आज कितनी Leads के Follow-Ups लेने हैं और कितने Customers के Follow-Ups लेने हैं। Leads और Follow-Up Management से हमारा Business प्रक्रिया पर निर्भर बनता है। Leads जोड़ते समय Enquiry For में हम दर्ज कर सकते हैं कि वह Lead किस Service के लिए आई है। इससे हमें पता चलता है कि किन Services के लिए अधिक Leads आ रही हैं।",
-      "en": "By following-up properly your chances of losing that lead are less. We stay in constant contact with those leads, so that leads convert into our customers and chances of conversion are high. After opening the dashboard of CRM, you will see on the dashboard how many leads you want to follow up today and how many customers you want to follow up today. Leads and follow-up management make whatever business you have, process dependent. While adding leads, we can enter the service for which the lead has come in Inquiry For. So that you get an idea for which services you are getting more leads."
+      "mr": "फॉलो-अप प्रॉपरली ॲड केल्याने आपली ती लीड लूज होण्याचे चान्सेस कमी असतात. आपण त्या लीड्सच्या कन्स्टंट कॉन्टॅक्टमध्ये राहतो, जेणेकरून ती लीड आपल्या कस्टमरमध्ये कन्वर्ट होण्यास मदत होते आणि कन्वर्जनचे चान्सेस जास्त असतात. CRM चा डॅशबोर्ड ओपन केल्यावर आपल्याला तिथे डॅशबोर्डवरती दिसेल की आपल्याला आज किती लीड्सचे फॉलो-अप्स घ्यायचे आहेत आणि किती कस्टमर्सचे आज फॉलो-अप्स घ्यायचे आहेत. लीड्स आणि फॉलो-अप मॅनेजमेंटमुळे आपला जो काही बिझनेस आहे, तो प्रोसेस डिपेंडंट होतो.",
+      "hi": "Follow-Up ठीक से जोड़ने पर उस Lead के छूट जाने की संभावना कम हो जाती है। हम Leads के लगातार संपर्क में रहते हैं, जिससे उस Lead को Customer में Convert करने में मदद मिलती है और Conversion की संभावना बढ़ती है। CRM का Dashboard खोलने पर हमें दिखाई देता है कि आज कितनी Leads के Follow-Ups लेने हैं और कितने Customers के Follow-Ups लेने हैं। Leads और Follow-Up Management से हमारा Business प्रक्रिया पर निर्भर बनता है।",
+      "en": "By following-up properly your chances of losing that lead are less. We stay in constant contact with those leads, so that leads convert into our customers and chances of conversion are high. After opening the dashboard of CRM, you will see on the dashboard how many leads you want to follow up today and how many customers you want to follow up today. Leads and follow-up management make whatever business you have, process dependent."
     },
     "cue": [
       {
         "id": "focus-0",
         "kind": "focus",
         "selector": ".todays-my-followups",
-        "at": 0.37
-      },
-      {
-        "id": "navigate-1",
-        "kind": "navigate",
-        "selector": "vendor/leads/add_lead",
-        "at": 0.8,
-        "target": "#lead_productid"
+        "at": 0.49
       }
     ]
   },

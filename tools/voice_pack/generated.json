@@ -95,6 +95,32 @@
           "left": 5051
         }
       ]
+    },
+    {
+      "at": "2026-09-30T09:06:20.214Z",
+      "languages": [
+        "mr",
+        "hi",
+        "en"
+      ],
+      "model": "eleven_v4_turbo",
+      "voice": "hpp4J3VqNfWAUOO0d1Us",
+      "generated": 3,
+      "failed": 0,
+      "creditsProjected": 655,
+      "creditsMeasured": 0,
+      "keys": [
+        {
+          "key": "...a993",
+          "spent": 0,
+          "left": 208
+        },
+        {
+          "key": "...b2e5",
+          "spent": 0,
+          "left": 3680
+        }
+      ]
     }
   ],
   "clips": {
@@ -171,13 +197,13 @@
       "at": "2026-09-29T04:19:39.590Z"
     },
     "mr/f09": {
-      "characters": 651,
-      "creditsEstimated": 326,
+      "characters": 461,
+      "creditsEstimated": 231,
       "model": "eleven_v4_turbo",
       "voice": "hpp4J3VqNfWAUOO0d1Us",
-      "keyTail": "...0ef8",
-      "bytes": 785807,
-      "at": "2026-09-29T04:19:45.986Z"
+      "keyTail": "...b2e5",
+      "bytes": 522075,
+      "at": "2026-09-30T09:06:10.295Z"
     },
     "mr/f10": {
       "characters": 1249,
@@ -378,13 +404,13 @@
       "at": "2026-09-29T04:30:09.734Z"
     },
     "hi/f09": {
-      "characters": 570,
-      "creditsEstimated": 285,
+      "characters": 413,
+      "creditsEstimated": 207,
       "model": "eleven_v4_turbo",
       "voice": "hpp4J3VqNfWAUOO0d1Us",
-      "keyTail": "...a993",
-      "bytes": 656239,
-      "at": "2026-09-29T04:30:14.657Z"
+      "keyTail": "...b2e5",
+      "bytes": 478607,
+      "at": "2026-09-30T09:06:15.330Z"
     },
     "hi/f10": {
       "characters": 1146,
@@ -585,13 +611,13 @@
       "at": "2026-09-29T04:32:30.458Z"
     },
     "en/f09": {
-      "characters": 594,
-      "creditsEstimated": 297,
+      "characters": 434,
+      "creditsEstimated": 217,
       "model": "eleven_v4_turbo",
       "voice": "hpp4J3VqNfWAUOO0d1Us",
-      "keyTail": "...a993",
-      "bytes": 591038,
-      "at": "2026-09-29T04:32:34.143Z"
+      "keyTail": "...b2e5",
+      "bytes": 437647,
+      "at": "2026-09-30T09:06:18.617Z"
     },
     "en/f10": {
       "characters": 1204,

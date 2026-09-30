@@ -12,7 +12,7 @@ const kinds = new Set([...runtime.matchAll(/case '([^']+)':/g)].map(match => mat
 for (const mode of ['full', 'short']) {
   const steps = sandbox.window.MIB_TOUR_CONTENT[mode];
   assert(steps.length > 0);
-  for (const step of steps) for (const cue of step.cues || []) {
+  for (const step of steps) for (const cue of step.cue || []) {
     assert(kinds.has(cue.kind), `${mode}/${step.id}: unsupported cue ${cue.kind}`);
   }
   console.log(`PASS ${mode}: every cue kind is still supported`);

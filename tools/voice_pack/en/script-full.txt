@@ -51,29 +51,29 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F06 ----------------------------------------------------
 
   6. [f06.mp3]   (370 characters)
-     SCREEN: vendor/leads/add_lead   focus: #lead_name
+     SCREEN: vendor/dashboard   focus: .page-content
      SAY:    Any platform from which you are getting leads like Just Dial, IndiaMart, Meta Ads, Google or if you are running any campaign, the lead from there will directly come into your CRM. You will see that lead on your CRM dashboard from which platform that lead came to you. Or if you want to add the lead manually, then we should go to Leads and add that lead in Add New Lead.
 
 
 ---- CHAPTER: F07 ----------------------------------------------------
 
   7. [f07.mp3]   (843 characters)
-     SCREEN: vendor/leads/add_lead   focus: #lead_name
+     SCREEN: vendor/leads/add_lead   focus: [data-target="#reference_section"]
      SAY:    While adding a lead, we can also select where the lead came from in Reference. That means we can select whether the lead came from IndiaMart, Instagram or Google. Then, while adding leads we can also add Alternate Contact Numbers. So that when the customer is not available, we can call on his Alternate Contact Number. That is, if the customer is not available on the main contact number, we can call on the alternate contact number. Adding references gives you an idea of ​​what your ROI is. So that we understand where we are getting more business from, from which platform we are getting more leads or business. Accordingly we can invest money etc. for marketing on that platform. While adding leads, we can enter the service for which the lead has come in Inquiry For. So that you get an idea for which services you are getting more leads
 
 
 ---- CHAPTER: F08 ----------------------------------------------------
 
   8. [f08.mp3]   (290 characters)
-     SCREEN: vendor/leads/add_lead_follwoup?id=NzAwOA%3D%3D   focus: #followup_feedback
+     SCREEN: vendor/leads/view_lead?id=NzAwOA%3D%3D   focus: a[title="Add Follow-up"]
      SAY:    After adding a lead, we can follow-up on that lead, so that the lead converts into our customer. For this, we can add whatever discussion we have with that lead in the follow-up. So that when we want to talk about that lead again tomorrow, we don't have to remember what was said last time.
 
 
 ---- CHAPTER: F09 ----------------------------------------------------
 
-  9. [f09.mp3]   (594 characters)
+  9. [f09.mp3]   (434 characters)
      SCREEN: vendor/dashboard   focus: .page-content
-     SAY:    By following-up properly your chances of losing that lead are less. We stay in constant contact with those leads, so that leads convert into our customers and chances of conversion are high. After opening the dashboard of CRM, you will see on the dashboard how many leads you want to follow up today and how many customers you want to follow up today. Leads and follow-up management make whatever business you have, process dependent. While adding leads, we can enter the service for which the lead has come in Inquiry For. So that you get an idea for which services you are getting more leads.
+     SAY:    By following-up properly your chances of losing that lead are less. We stay in constant contact with those leads, so that leads convert into our customers and chances of conversion are high. After opening the dashboard of CRM, you will see on the dashboard how many leads you want to follow up today and how many customers you want to follow up today. Leads and follow-up management make whatever business you have, process dependent.
 
 
 ---- CHAPTER: F10 ----------------------------------------------------
@@ -86,7 +86,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F11 ----------------------------------------------------
 
  11. [f11.mp3]   (851 characters)
-     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .page-content
+     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .followuptbl:has(a[title="Click To Schedule"])
      SAY:    Below are some of the AMC services we are providing to the customer after customer submission. If that service is for complaint, then we can cancel service there and submit that service by entering Completed Reason. Or if we want to schedule this service and assign a task to someone, then we can schedule that service by clicking on the Schedule button. If you go to the dashboard and check, you have created a customer in Pending Services, its service will show that the service of this customer is pending. Then we can complete the service by clicking on that customer. Then we can add any follow-ups about this customer by going below to Add Follow-ups. And if the payment comes later, then we can add that payment too by clicking on the Payment button. Customers whose payment is pending, you will also see as Payment Defaulters on the dashboard.
 
 
@@ -100,7 +100,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F13 ----------------------------------------------------
 
  13. [f13.mp3]   (634 characters)
-     SCREEN: vendor/customers/add_customer_follwoup?id=NjAxMw%3D%3D   focus: #followup_feedback
+     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: a[title="Add Follow-up"]
      SAY:    After that we can take proper follow-up of the customer, so that we can provide timely services to that customer. By clicking on the Follow-Up button, we can add any service we want to provide in the Follow-Up Details. In its follow-up status we can make Pending. After that, we can manage the follow-up by using whatever option is suitable for us like Routine in Follow-Up For and Visit in Follow-Up Medium. After that whatever date and time we set in Next Follow-Up Date and Time, on that date we will see the name of that customer in Pending Follow-Ups on the dashboard. So that you know that this customer needs a follow-up today.
 
 
@@ -114,7 +114,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F15 ----------------------------------------------------
 
  15. [f15.mp3]   (1470 characters)
-     SCREEN: vendor/admin/emp_attendance_report   focus: .portlet.light.bordered
+     SCREEN: vendor/admin/employee_report   focus: .portlet.light.bordered
      SAY:    After that, click on the name of the employee you have created in the All Employees Report and its details will open. It will contain his User ID and Password. Then User ID and Password should be shared with that Employee. Similarly, each employee will have a unique user ID and password. Then ask your employee to download MI-Btrack CRM Mobile Android App from Play Store. After downloading, the Employee will enter your Unique Username and Password in that App. After that they will receive OTP. After validating that OTP, your employee will see their dashboard in MI-Btrack CRM Application. In the mobile application, there are three lines on the left side corner. After clicking on it, an option called Employee Attendance will appear. After clicking on that option there will be two buttons Login and Logout. Employee has to submit attendance by taking a selfie by clicking on login. When they come to office or field, they have to mark attendance from there. Similarly, when they logout, they have to go to Logout and upload their Selfie and Submit Attendance. When we click on the Attendance Report section in Employee on the desktop, then we will see the Attendance Report of our Employee there. In this way we can check the Daily Attendance of our Employees or view the Monthly Attendance Report and can also download it. In Attendance you will get to see all the details like Image, Login Time, Logout Time, Login Location and Logout Location of your Employee.
 
 
@@ -128,14 +128,14 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F17 ----------------------------------------------------
 
  17. [f17.mp3]   (1344 characters)
-     SCREEN: vendor/customers/ticket_report   focus: .portlet.light.bordered
+     SCREEN: assets/demo-mobile/index.html?screen=tickets&connected=1   focus: #ticket-list
      SAY:    After a Ticket is Assigned, the Employee can open My Tickets in the Mobile Application and view the Tickets Assigned to them. By selecting a Particular Ticket, the Employee can see which Customer or Lead the Ticket is about and view their Location. The Description explains exactly what work must be completed at the Field location. After reaching the Field, the Employee opens the Ticket and selects the three Dots in the Right Side Corner. The Start Ticket Option then appears. The Employee enters a Start Ticket Remark, such as Starting Work, and selects the Start Ticket Button. After the Work is complete, the Employee selects the three Dots again and chooses Update Ticket. The Update Ticket screen contains Review and Description Fields. In Review, the Employee can record which Service was provided to the Customer. In Description, the Employee can describe any Extra Material used, any Incomplete Work, or whether another Field Visit is required. In Work Type, the Employee selects Service, Repair, or Both. Status provides Open and Resolved Options. Select Open when the Work is incomplete and another Visit is required. Select Resolved when the Work is complete. The Employee can then select Browse to Capture or Upload a work-related Image. After adding the Image, select Update, collect the Client Signature, and Submit the Ticket.
 
 
 ---- CHAPTER: F18 ----------------------------------------------------
 
  18. [f18.mp3]   (1405 characters)
-     SCREEN: vendor/customers/ticket_summary_report   focus: .ticket-summary-page
+     SCREEN: vendor/customers/ticket_report   focus: .portlet.light.bordered
      SAY:    Thus after they solve the particular task assigned to them, we can see it in All Ticket Details on the desktop. The particular Ticket ID you assigned will change from Open to Resolved in front of it. After clicking on that Ticket ID, you will see the complete details of that Ticket. In that, you will know what time your employee started the ticket and when it was resolved. Also, we will see whatever Remarks he wrote there, such as Review and Description. After you view the Ticket Details, your Admins and Super Admins can also view the Image uploaded by the Employee and the Signature of the Client. And you will also know how much duration your employee has taken to solve the ticket. In the ticket summary report we can see the total number of tickets assigned, how many are open tickets, how many are reopened tickets, how many are resolved tickets and how many are finally closed tickets. We can also see employee-wise data that how many tickets have been solved by any of our employees. In that we can also see Ticket Distribution. That is, how many tickets are assigned to a specific employee, how many tickets have been opened by them, how many have been resolved and how many have been closed. In this way we can check the data of each particular employee. If we want to see their Monthly or Particular Week Data and check their Performance, we can also see it in the Employee Ticket Summary.
 
 
@@ -174,5 +174,5 @@ HOW TO USE THIS FILE
      SAY:    In Reports itself, in All Reports, we can see the report of all our things. Like in Masters we can see Reference Report, AMC Report, Notification Report and Sale Product Report. In Tickets we can see Resolved Ticket Report and Closed Ticket Report. In Admins we can see our Employees Reports and Employee Location Reports. In Leads we can see Leads Report and Confirmed Leads Report. In Customers we can see Customer Report, Pending Customer Report, Payment Report, AMC Customer Report, Employee Availability Report, One-Time Service Report and Follow-Up Report. In Quotations we can see Quotation Report. After that in Sales we can see Sales Report and GST Report. In Analysis Reports we can see Complaint Analysis Report, Lead Analysis Report, Collection Report, Ticket Analysis Report and Payment Analysis Report. In Services we can see Upcoming Service Report and Pending Services Report. After that we can also see Analysis Graphs, in which we can also see Analysis of Leads, Payments and Customers. We can also see the Complaints Report.
 
 ==========================================================================
-Total for this tour: 16159 characters, roughly 18m 34s of speech.
+Total for this tour: 15999 characters, roughly 18m 23s of speech.
 Remember that clips shared with another tour only cost once.

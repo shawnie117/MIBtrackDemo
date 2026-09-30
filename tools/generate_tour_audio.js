@@ -12,6 +12,7 @@
  *   node tools/generate_tour_audio.js                 # plan only, spends nothing
  *   node tools/generate_tour_audio.js --go            # generate Marathi
  *   node tools/generate_tour_audio.js --go --lang all # generate mr, hi and en
+ *   node tools/generate_tour_audio.js --go --lang all --ids f09 # one chapter
  *   node tools/generate_tour_audio.js --go --limit 1  # try a single clip first
  *   node tools/generate_tour_audio.js --go --lang all \
  *     --audio-root tools/voice_pack/new_audio \
@@ -64,6 +65,7 @@ const RESERVE = parseInt(arg('reserve', '120'), 10);
 
 const LANG_ARG = arg('lang', 'mr');
 const LANGS = LANG_ARG === 'all' ? ['mr', 'hi', 'en'] : LANG_ARG.split(',');
+const IDS = arg('ids', '').split(',').map(id => id.trim()).filter(Boolean);
 
 /** V4 Turbo supports English, Hindi and Marathi at half-credit cost. */
 const MODEL = arg('model', 'eleven_v4_turbo');
@@ -350,7 +352,10 @@ function planLanguage(manifest, ordered, lang, poolBudget, alreadyPlanned) {
 
     // ---- plan every requested language against one shared budget -----
 
-    const ordered = priorityOrder(manifest);
+    const ordered = priorityOrder(manifest).filter(item => !IDS.length || IDS.includes(item.clip.id));
+    for (const id of IDS) {
+        if (!ordered.some(item => item.clip.id === id)) throw new Error('Unknown clip id: ' + id);
+    }
     const plans = {};
     let running = 0;
     let allPlanned = [];

@@ -773,7 +773,7 @@
         // Flat per-language layout, keyed on the stable step id, so the core,
         // AMC and full tours all reuse one recording per step per language.
         // That is the difference between paying for 22 clips and 66.
-        return BASE + 'assets/tour/audio/' + state.lang + '/' + step.id + '.mp3?v=20260929-v4';
+        return BASE + 'assets/tour/audio/' + state.lang + '/' + step.id + '.mp3?v=20260930-enquiry';
     }
 
     /**

@@ -30,14 +30,14 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F06 ----------------------------------------------------
 
   3. [f06.mp3]   (370 characters)
-     SCREEN: vendor/leads/add_lead   focus: #lead_name
+     SCREEN: vendor/dashboard   focus: .page-content
      SAY:    Any platform from which you are getting leads like Just Dial, IndiaMart, Meta Ads, Google or if you are running any campaign, the lead from there will directly come into your CRM. You will see that lead on your CRM dashboard from which platform that lead came to you. Or if you want to add the lead manually, then we should go to Leads and add that lead in Add New Lead.
 
 
 ---- CHAPTER: F08 ----------------------------------------------------
 
   4. [f08.mp3]   (290 characters)
-     SCREEN: vendor/leads/add_lead_follwoup?id=NzAwOA%3D%3D   focus: #followup_feedback
+     SCREEN: vendor/leads/view_lead?id=NzAwOA%3D%3D   focus: a[title="Add Follow-up"]
      SAY:    After adding a lead, we can follow-up on that lead, so that the lead converts into our customer. For this, we can add whatever discussion we have with that lead in the follow-up. So that when we want to talk about that lead again tomorrow, we don't have to remember what was said last time.
 
 
@@ -51,7 +51,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F11 ----------------------------------------------------
 
   6. [f11.mp3]   (851 characters)
-     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .page-content
+     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .followuptbl:has(a[title="Click To Schedule"])
      SAY:    Below are some of the AMC services we are providing to the customer after customer submission. If that service is for complaint, then we can cancel service there and submit that service by entering Completed Reason. Or if we want to schedule this service and assign a task to someone, then we can schedule that service by clicking on the Schedule button. If you go to the dashboard and check, you have created a customer in Pending Services, its service will show that the service of this customer is pending. Then we can complete the service by clicking on that customer. Then we can add any follow-ups about this customer by going below to Add Follow-ups. And if the payment comes later, then we can add that payment too by clicking on the Payment button. Customers whose payment is pending, you will also see as Payment Defaulters on the dashboard.
 
 
@@ -72,7 +72,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F17 ----------------------------------------------------
 
   9. [f17.mp3]   (1344 characters)
-     SCREEN: vendor/customers/ticket_report   focus: .portlet.light.bordered
+     SCREEN: assets/demo-mobile/index.html?screen=tickets&connected=1   focus: #ticket-list
      SAY:    After a Ticket is Assigned, the Employee can open My Tickets in the Mobile Application and view the Tickets Assigned to them. By selecting a Particular Ticket, the Employee can see which Customer or Lead the Ticket is about and view their Location. The Description explains exactly what work must be completed at the Field location. After reaching the Field, the Employee opens the Ticket and selects the three Dots in the Right Side Corner. The Start Ticket Option then appears. The Employee enters a Start Ticket Remark, such as Starting Work, and selects the Start Ticket Button. After the Work is complete, the Employee selects the three Dots again and chooses Update Ticket. The Update Ticket screen contains Review and Description Fields. In Review, the Employee can record which Service was provided to the Customer. In Description, the Employee can describe any Extra Material used, any Incomplete Work, or whether another Field Visit is required. In Work Type, the Employee selects Service, Repair, or Both. Status provides Open and Resolved Options. Select Open when the Work is incomplete and another Visit is required. Select Resolved when the Work is complete. The Employee can then select Browse to Capture or Upload a work-related Image. After adding the Image, select Update, collect the Client Signature, and Submit the Ticket.
 
 

@@ -30,14 +30,14 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F06 ----------------------------------------------------
 
   3. [f06.mp3]   (366 characters)
-     SCREEN: vendor/leads/add_lead   focus: #lead_name
+     SCREEN: vendor/dashboard   focus: .page-content
      SAY:    जिस भी प्लेटफॉर्म से आपको लीड मिल रही है जैसे जस्ट डायल, इंडियामार्ट, मेटा एड्स, गूगल या आप कोई कैंपेन चला रहे हैं तो वहां से लीड सीधे आपके सीआरएम में आ जाएगी। आप उस लीड को अपने CRM डैशबोर्ड पर देखेंगे कि वह लीड किस प्लेटफ़ॉर्म से आपके पास आई थी। या यदि आप मैन्युअल रूप से लीड जोड़ना चाहते हैं, तो हमें लीड्स पर जाना चाहिए और उस लीड को Add New Lead में जोड़ना चाहिए।
 
 
 ---- CHAPTER: F08 ----------------------------------------------------
 
   4. [f08.mp3]   (286 characters)
-     SCREEN: vendor/leads/add_lead_follwoup?id=NzAwOA%3D%3D   focus: #followup_feedback
+     SCREEN: vendor/leads/view_lead?id=NzAwOA%3D%3D   focus: a[title="Add Follow-up"]
      SAY:    लीड जोड़ने के बाद, हम उस लीड पर फ़ॉलो-अप कर सकते हैं, ताकि लीड हमारे ग्राहक में परिवर्तित हो जाए। इसके लिए, हम उस लीड के साथ जो भी चर्चा करेंगे उसे फॉलो-अप में जोड़ सकते हैं। ताकि कल जब हम उस लीड के बारे में दोबारा बात करना चाहें तो हमें यह याद न रखना पड़े कि पिछली बार क्या कहा गया था।
 
 
@@ -51,7 +51,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F11 ----------------------------------------------------
 
   6. [f11.mp3]   (838 characters)
-     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .page-content
+     SCREEN: vendor/customers/view_customer?id=NjAxMw%3D%3D   focus: .followuptbl:has(a[title="Click To Schedule"])
      SAY:    नीचे कुछ एएमसी सेवाएं दी गई हैं जो हम ग्राहक के सबमिशन के बाद ग्राहक को प्रदान कर रहे हैं। यदि वह सेवा शिकायत के लिए है, तो हम वहां सेवा रद्द कर सकते हैं और पूर्ण कारण दर्ज करके उस सेवा को सबमिट कर सकते हैं। या फिर अगर हम इस सर्विस को शेड्यूल करना चाहते हैं और किसी को कोई कार्य सौंपना चाहते हैं तो हम शेड्यूल बटन पर क्लिक करके उस सर्विस को शेड्यूल कर सकते हैं। यदि आप डैशबोर्ड पर जाकर चेक करते हैं कि आपने पेंडिंग सर्विसेज में एक ग्राहक बनाया है तो इसकी सर्विस से पता चल जाएगा कि इस ग्राहक की सर्विस पेंडिंग है। फिर हम उस ग्राहक पर क्लिक करके सेवा पूरी कर सकते हैं। फिर हम नीचे फॉलो-अप जोड़ें पर जाकर इस ग्राहक के बारे में कोई भी फॉलो-अप जोड़ सकते हैं। और अगर पेमेंट बाद में आती है तो हम पेमेंट बटन पर क्लिक करके उस पेमेंट को भी जोड़ सकते हैं। जिन ग्राहकों का भुगतान लंबित है, उन्हें आप डैशबोर्ड पर भुगतान डिफॉल्टर के रूप में भी देखेंगे।
 
 
@@ -72,7 +72,7 @@ HOW TO USE THIS FILE
 ---- CHAPTER: F17 ----------------------------------------------------
 
   9. [f17.mp3]   (1518 characters)
-     SCREEN: vendor/customers/ticket_report   focus: .portlet.light.bordered
+     SCREEN: assets/demo-mobile/index.html?screen=tickets&connected=1   focus: #ticket-list
      SAY:    Ticket Assign होने के बाद Employee अपने Mobile Application में My Tickets पर जाकर उसे Assign किए गए Tickets देख सकता है। किसी Particular Ticket पर क्लिक करके वह उसकी Details देख सकता है कि Ticket किस Customer या Lead के बारे में बनाया गया है और उनकी Location क्या है। Description में वह देख सकता है कि Field पर जाकर उसे ठीक कौन-सा काम करना है। Field पर पहुँचने के बाद वह Ticket पर क्लिक करके Right Side Corner में दिए गए तीन Dots पर क्लिक करेगा। इसके बाद Start Ticket Option दिखाई देगा। Start Ticket पर क्लिक करने के बाद उसे Start Ticket Remark दर्ज करना होगा। वह Remark में Starting Work लिख सकता है। फिर Start Ticket Button पर क्लिक करके Ticket Start कर सकता है। Work पूरा होने पर दोबारा Right Side Corner के तीन Dots पर क्लिक करने से Update Ticket Option दिखाई देगा। Update Ticket पर क्लिक करने के बाद Review और Description Fields दिखाई देंगे। Review में Employee लिख सकता है कि Customer को कौन-सी Service दी गई है। Description में वह Detail से लिख सकता है कि Customer के यहाँ कोई Extra Material इस्तेमाल किया गया है, कोई Work Incomplete है या Field पर दोबारा Visit करना है। फिर Work Type में Service, Repair या Both में से सही Option Select कर सकता है। Status में Open और Resolved Options होंगे। यदि Work पूरा नहीं हुआ है और दोबारा Visit करना है, तो Open Select करें। यदि Work पूरा हो गया है, तो Resolved Select करें। फिर Browse पर क्लिक करके Work से संबंधित Image Capture या Upload की जा सकती है। Image Capture करने के बाद Update Button पर क्लिक करें। इसके बाद Client Signature लेकर Ticket Submit किया जा सकता है।
 
 

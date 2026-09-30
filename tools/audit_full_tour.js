@@ -5,13 +5,14 @@ const puppeteer = require('puppeteer-core');
 const base = process.env.DEMO_BASE_URL || 'http://127.0.0.1:8765';
 const lang = process.argv[2] || 'mr';
 const ids = process.argv.slice(3);
-const output = path.join(__dirname, 'live_shots', 'full-audit-' + lang + (ids.length ? '-' + ids.join('-') : ''));
+const mobile = process.env.DEMO_MOBILE === '1';
+const output = path.join(__dirname, 'live_shots', 'full-audit-' + lang + (mobile ? '-mobile' : '') + (ids.length ? '-' + ids.join('-') : ''));
 fs.mkdirSync(output, { recursive: true });
 const chrome = ['C:/Program Files/Google/Chrome/Application/chrome.exe', 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe'].find(fs.existsSync);
 const wait = ms => new Promise(r => setTimeout(r, ms));
 (async () => {
   const browser = await puppeteer.launch({ executablePath: chrome, headless: true,
-    defaultViewport: { width: 1440, height: 900 },
+    defaultViewport: mobile ? { width: 390, height: 844, isMobile: true, hasTouch: true } : { width: 1440, height: 900 },
     args: ['--mute-audio', '--autoplay-policy=no-user-gesture-required'] });
   const page = await browser.newPage();
   const report = { language: lang, steps: [], errors: [], missing: [] };
@@ -47,6 +48,28 @@ const wait = ms => new Promise(r => setTimeout(r, ms));
         if (!s.captionMatches || !s.audio.includes('/' + lang + '/' + s.id + '.mp3')) throw new Error('Wrong caption/recording: ' + s.id);
         if (s.fakeOptions) throw new Error('Fabricated dropdown choice: ' + s.id);
         const value = id => s.fields.find(f => f.id === id)?.value;
+        const requiredValues = {
+          f02: {pdt_name: 'Rat Repellent', pdt_desc: 'Rat repellent for pest control', pdt_regular_price: '1500', pdt_comm_price: '1200', pdt_warranty_period: '365', p_noofservices: '2', p_sit: '183', pdt_gst: '18'},
+          f03: {amc_name: 'General Pest Management', amc_desc: 'GPMS AMC for 1 year', amc_duration: '365', amc_noofservices: '6', amc_sit: '61', amc_gst: '18', amc_price: '2000', amc_corporate_price: '1900'},
+          f04: {ots_name: 'General OTS', ots_type: 'One time service', ots_desc: 'For cleaning service at one time', ots_gst: '18', price_regular: '500', price_comm: '700'},
+          f07: {lead_name: 'Ambar Patil', lead_contact: '4515554454', lead_desc: 'New amc required', company_name: 'ABC Industries'}
+        };
+        for (const [id, expected] of Object.entries(requiredValues[s.id] || {})) {
+          if (value(id) !== expected) throw new Error(s.id + ' field ' + id + ': expected ' + expected + ', got ' + value(id));
+        }
+        if (s.id === 'f02') {
+          const brand = await page.evaluate(() => document.querySelector('#tour-frame').contentDocument.querySelector('#p_brand_id').selectedOptions[0].textContent.trim());
+          if (brand !== 'Black Hit') throw new Error('Product brand missing');
+        }
+        if (['f02', 'f03', 'f04'].includes(s.id)) {
+          const suggestionsVisible = await page.evaluate(() => [...document.querySelector('#tour-frame').contentDocument.querySelectorAll('[id$="_suggestion_box"]')].filter(e => e.offsetWidth || e.offsetHeight).map(e => e.id));
+          if (suggestionsVisible.length) throw new Error('Name suggestions obscure master details: ' + s.id + ' ' + suggestionsVisible.join(','));
+        }
+        if (s.id === 'f07') {
+          const enquiry = await page.evaluate(() => document.querySelector('#tour-frame').contentDocument.querySelector('#lead_productid').selectedOptions[0].textContent.trim());
+          if (!enquiry.includes('General Pest Management')) throw new Error('Add Lead enquiry selection missing');
+        }
+        if (s.id === 'f09' && (!s.url.includes('/vendor/dashboard') || /Enquiry For|Inquiry For/i.test(await page.$eval('#tour-caption', e => e.textContent)))) throw new Error('Enquiry still appears in follow-up chapter');
         if (s.id === 'f10' && (!value('cust_ui_date') || Number(value('cust_total_amount')) <= 0 || value('cust_paid_amount') !== '1000')) throw new Error('AMC/date/payment not populated');
         if (s.id === 'f13' && (value('followupfor') !== 'Routine' || !value('next_update_date') || !s.fields.find(f => f.id === 'visitRadio')?.checked)) throw new Error('Follow-up incomplete');
         if (s.id === 'f16' && !value('ticket_date')) throw new Error('Ticket date missing');
